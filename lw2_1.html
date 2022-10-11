@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <title>Example 1</title>   
+        <meta charset="utf-8">   
+        <style>
+            .serif{
+                font-family: "Georgia", "Times New Roman", serif;
+                font-size: 22px;
+            }
+            #sansserif{
+                font-family: "Roboto", Arial, Helvetica, sans-serif;
+                color:rgb(49, 0, 0);
+                font-size: 20px;
+            }
+            var{
+                color:#F0544F;
+                font-size: 25px;
+            }
+            sub{
+                color: #1B512D;
+                font-size: 20px;
+            }
+            sup{
+                color: #1C7C54;
+                font-size: 20px;
+            }
+            em{
+                color: #D81E5B;
+                font-size: 18px;
+            }
+            code{
+                font-family: 'Courier New', Courier, monospace;
+                color:rgb(0, 42, 255);
+                font-size: 20px;
+            }
+            body{
+                background-color: #ffe4c4;
+            }
+            samp{
+                font-size: 20px;
+            }
+        </style>   
+    </head>
+    <body>
+        <pre>
+<div class="serif">Напишем программу на языке</div> <em>С++</em>
+В качестве примера будем принимать на ввод <em>переменные</em>
+    <var>a</var>, <var>b</var>, <var>c</var>.
+<div id="sansserif"> будет <b>значение выражения</b> <sub>ниже</sub></div>
+    <var>f  = a &#215; b<sup>2</sup>&#8722; c<sup>3</sup> </var>
+        </pre>
+        <code>
+            <pre>
+#include &lt;iostream&gt;<br/>
+int main() <br/>
+{<br/>
+    int a, b, c;<br/>
+    std::cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;<br/>
+    int f = a * b * b - c * c * c;<br/>
+    std::cout &lt;&lt; "Result = " &lt;&lt; f &lt;&lt; std::endl;<br/>
+    return 0;<br/>
+}
+            </pre>
+        </code>
+        <samp>Result = 1.9</samp><br/>
+    </body>
+</html>

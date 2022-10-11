@@ -1,0 +1,22 @@
+h1, h2, h3, h4{
+    font-family: 'Times New Roman', Times, serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.table{
+    display: table;
+    padding: 0;
+}
+.row{
+    display: table-row;
+}
+.cell{
+    display: table-cell;
+    border: 1px solid #000000;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+}
+

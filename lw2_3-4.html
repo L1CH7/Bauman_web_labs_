@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>ICS6 Bootstrap</title>
+        <link
+        href="https://e-learning.bmstu.ru/iu6/mod/resource/view.php?id=7052" rel="stylesheet">
+        <style>
+            html {
+                position: relative;
+                min-height: 100%;
+            }
+            body {
+                margin-bottom: 60px;
+            }
+            main {
+                margin-top: 15px;
+            }
+            footer {
+                height: 55px;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+            }
+            .my-primary {
+                background-color: #FF0035;
+                color: #8B939C;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark my-primary">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img
+                    src="https://i.ytimg.com/vi/HtGtiCf7fTg/maxresdefault.jpg"
+                    alt="avatar" width="150" height="150">
+                    </div>
+                <div class="col-8">
+                    <h1>Бизнес-курс "Студия красоты"</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <!--<form> {...} </form>-->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col"><strong>Авторизация</strong></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">Имя: </div>
+                            <div class="col-8">
+                                <input type="text" name="fname"/> <br/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">Фамилия:</div>
+                            <div class="col-8">
+                                <input type="text" name="lname"/> <br/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                Пол: 
+                                <input type="radio" name="gender" value="M"/>М
+                                <input type="radio" name="gender" value="F"/>Ж<br/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="submit" value="Войти"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8">
+                    <!--<table> {...} </table>-->
+                    <table class="table table-bordered">
+                        <tr>
+                            <th colspan="3">Расписание гр. ИУ6-34Б</th>
+            
+                        </tr>
+                        <tr align="center">
+                            <td rowspan="2" align="center">Время</td>
+                            <td colspan="2" align="center">Четверг</td>
+                        </tr>
+                        <tr>
+                            <td align="center">Чс.</td>
+                            <td align="center">Зн.</td>
+                        </tr>
+                        <tr>
+                            <td>8:30-10:05</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10:15-11:50</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>12:00-13:35</td>
+                            <td>ЭКпоФ КиС-каф.ФВ</td>
+                            <td>ЭКпоФ КиС-каф.ФВ</td>
+                        </tr>
+                        <tr>
+                            <td>13:50-15:25</td>
+                            <td>ТВиМС-427ю</td>
+                            <td>ТВиМС-427ю</td>
+                        </tr>
+                        <tr>
+                            <td>15:40-17:15</td>
+                            <td>Физ-ФН4</td>
+                            <td>Физ-304</td>
+                        </tr>
+                        <tr>
+                            <td>17:25-19:00</td>
+                            <td>Физ-ФН4</td>
+                            <td>БД-501ю</td>
+                        </tr>
+                        <tr>
+                            <td>19:10-20:45</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <!--<text> {...} </text>-->
+                    <p>
+                        Напишем программу на языке <em>С++</em><br/>
+                        В качестве примера будем принимать на ввод <em>переменные</em><br/>
+                        &nbsp;&nbsp;<var>a</var>, <var>b</var>, <var>c</var>.<br/>
+                        Выводом будет <b>значение выражения</b> <br/>
+                        &nbsp;&nbsp;<var>f  = a &#215; b<sup>2</sup>&#8722; c<sup>3</sup> </var><br/>
+                    </p>
+                    <code>
+                        #include &lt;iostream&gt;<br/>
+                        int main() <br/>
+                        {<br/>
+                            &nbsp;&nbsp;int a, b, c;<br/>
+                            &nbsp;&nbsp;std::cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;<br/>
+                            &nbsp;&nbsp;int f = a * b * b - c * c * c;<br/>
+                            &nbsp;&nbsp;std::cout &lt;&lt; f &lt;&lt; std::endl;<br/>
+                            &nbsp;&nbsp;return 0;<br/>
+                        }
+                    </code>
+                </div>
+            </div>
+        </main>
+        <footer class="my-primary">
+            <div class="container">
+                <p class="footer-text">Все права защищены (54+). Мы не несем ответственности за возможные психические расстройства, 
+                    за разрушение Вашей семьи при посещении данного сайта</p>
+            </div>
+        </footer>
+    </body>
+</html>
