@@ -1,0 +1,16 @@
+.table{
+    display: table; 
+    padding: 8px;
+}
+
+.row{
+    display: table-row;
+}
+
+.cell{
+    display: table-cell;
+}
+
+.body_style{
+    background-color: rgb(232, 251, 252)
+}

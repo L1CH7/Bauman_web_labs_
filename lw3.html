@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>3rd Lab Work</title>
+        <link rel="stylesheet" href="style_sheet/style.css" type="text/css"/>
+    </head>
+    <body class="body_style">
+        <form action="/form_submit" method="get">
+            <div class="table">
+                <div class="row">
+                    <label class="cell">Фамилия:</label>
+                    <input type="text" name="lname"><br>
+                </div>
+                <div class="row">
+                    <label class="cell">Имя:</label>
+                    <input type="text" name="fname"><br>
+                </div>
+                <div class="row">
+                    <label class="cell">Год рождения:</label>
+                    <select id="year"></select><br>
+                </div>
+                <div class="row">
+                    <label class="cell">Пол:</label>
+                    <label><input type="radio" name="gender" value="м">М</label>
+                    <label><input type="radio" name="gender" value="ж">Ж</label><br>
+                </div>
+            </div>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
+        </form>
+        <div><ul><li id="my_list"></li></ul></div>
+        <script type="text/javascript" src="scripts/script.js"></script>
+    </body>
+</html>
