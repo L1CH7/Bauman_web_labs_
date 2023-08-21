@@ -1,0 +1,1088 @@
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/xml?url=http%3A%2F%2F%5B%3A%3A1%5D%3A5000%2Flogic%2Fview.xml%3Fnumber_a%3D14%26number_b%3D21%26commit%3D%25D0%259D%25D0%25B0%25D0%25B9%25D1%2582%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%2594%2B%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%259A&xslt=1&xslt_type=client" for 127.0.0.1 at 2023-01-19 13:39:46 +0300
+Processing by LogicController#xml as XML
+  Parameters: {"url"=>"http://[::1]:5000/logic/view.xml?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A", "xslt"=>"1", "xslt_type"=>"client"}
+  Rendering inline template
+  Rendered inline template (Duration: 4.2ms | Allocations: 317)
+Completed 200 OK in 44ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 3523)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?url=http%3A%2F%2F%5B%3A%3A1%5D%3A5000%2Flogic%2Fview.xml%3Fnumber_a%3D14%26number_b%3D21%26commit%3D%25D0%259D%25D0%25B0%25D0%25B9%25D1%2582%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%2594%2B%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%259A&xslt=1&xslt_type=server&commit=%D0%9F%D0%B5%D1%80%D0%B5%D0%B9%D1%82%D0%B8+%D0%BA+%D1%80%D0%B0%D1%81%D1%81%D1%87%D1%91%D1%82%D0%B0%D0%BC" for 127.0.0.1 at 2023-01-19 13:39:46 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"url"=>"http://[::1]:5000/logic/view.xml?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A", "xslt"=>"1", "xslt_type"=>"server", "commit"=>"Перейти к рассчётам"}
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 98)
+Completed 200 OK in 17ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1126)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/xml?url=http%3A%2F%2F%5B%3A%3A1%5D%3A5000%2Flogic%2Fview.xml%3Fnumber_a%3D14%26number_b%3D21%26commit%3D%25D0%259D%25D0%25B0%25D0%25B9%25D1%2582%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%2594%2B%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%259A&xslt=1&xslt_type=client" for 127.0.0.1 at 2023-01-19 13:40:43 +0300
+Processing by LogicController#xml as XML
+  Parameters: {"url"=>"http://[::1]:5000/logic/view.xml?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A", "xslt"=>"1", "xslt_type"=>"client"}
+  Rendering inline template
+  Rendered inline template (Duration: 0.7ms | Allocations: 317)
+Completed 200 OK in 20ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 3525)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/xml?url=http%3A%2F%2F%5B%3A%3A1%5D%3A5000%2Flogic%2Fview.xml%3Fnumber_a%3D14%26number_b%3D21%26commit%3D%25D0%259D%25D0%25B0%25D0%25B9%25D1%2582%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%2594%2B%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%259A&xslt_type=server" for 127.0.0.1 at 2023-01-19 13:40:43 +0300
+Processing by LogicController#xml as XML
+  Parameters: {"url"=>"http://[::1]:5000/logic/view.xml?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A", "xslt_type"=>"server"}
+  Rendering inline template
+  Rendered inline template (Duration: 0.2ms | Allocations: 120)
+Completed 200 OK in 16ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1074)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/xml?url=http%3A%2F%2F%5B%3A%3A1%5D%3A5000%2Flogic%2Fview.xml%3Fnumber_a%3D14%26number_b%3D21%26commit%3D%25D0%259D%25D0%25B0%25D0%25B9%25D1%2582%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%2594%2B%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%259A&xslt=1&xslt_type=client" for 127.0.0.1 at 2023-01-19 13:41:30 +0300
+Processing by LogicController#xml as XML
+  Parameters: {"url"=>"http://[::1]:5000/logic/view.xml?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A", "xslt"=>"1", "xslt_type"=>"client"}
+  Rendering inline template
+  Rendered inline template (Duration: 0.7ms | Allocations: 317)
+Completed 200 OK in 24ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 3525)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/xml?url=http%3A%2F%2F%5B%3A%3A1%5D%3A5000%2Flogic%2Fview.xml%3Fnumber_a%3D14%26number_b%3D21%26commit%3D%25D0%259D%25D0%25B0%25D0%25B9%25D1%2582%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%2594%2B%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%259A&xslt_type=server" for 127.0.0.1 at 2023-01-19 13:41:30 +0300
+Processing by LogicController#xml as XML
+  Parameters: {"url"=>"http://[::1]:5000/logic/view.xml?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A", "xslt_type"=>"server"}
+  Rendering inline template
+  Rendered inline template (Duration: 0.4ms | Allocations: 120)
+Completed 200 OK in 22ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1074)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/xml?url=http%3A%2F%2F%5B%3A%3A1%5D%3A5000%2Flogic%2Fview.xml%3Fnumber_a%3D14%26number_b%3D21%26commit%3D%25D0%259D%25D0%25B0%25D0%25B9%25D1%2582%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%2594%2B%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%259A&xslt_type=server" for 127.0.0.1 at 2023-01-22 14:50:48 +0300
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/xml?url=http%3A%2F%2F%5B%3A%3A1%5D%3A5000%2Flogic%2Fview.xml%3Fnumber_a%3D14%26number_b%3D21%26commit%3D%25D0%259D%25D0%25B0%25D0%25B9%25D1%2582%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%2594%2B%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%259A&xslt_type=server" for 127.0.0.1 at 2023-01-22 14:51:21 +0300
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/xml?url=http%3A%2F%2F%5B%3A%3A1%5D%3A5000%2Flogic%2Fview.xml%3Fnumber_a%3D14%26number_b%3D21%26commit%3D%25D0%259D%25D0%25B0%25D0%25B9%25D1%2582%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%2594%2B%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%259A&xslt_type=server" for 127.0.0.1 at 2023-01-22 14:52:15 +0300
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/xml?url=http%3A%2F%2F%5B%3A%3A1%5D%3A5000%2Flogic%2Fview.xml%3Fnumber_a%3D14%26number_b%3D21%26commit%3D%25D0%259D%25D0%25B0%25D0%25B9%25D1%2582%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%2594%2B%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%259A&xslt_type=server" for 127.0.0.1 at 2023-01-22 15:01:02 +0300
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/xml?url=http%3A%2F%2F%5B%3A%3A1%5D%3A5000%2Flogic%2Fview.xml%3Fnumber_a%3D14%26number_b%3D21%26commit%3D%25D0%259D%25D0%25B0%25D0%25B9%25D1%2582%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%2594%2B%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%259A&xslt_type=server" for 127.0.0.1 at 2023-01-22 15:01:13 +0300
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/xml?url=http%3A%2F%2F%5B%3A%3A1%5D%3A5000%2Flogic%2Fview.xml%3Fnumber_a%3D14%26number_b%3D21%26commit%3D%25D0%259D%25D0%25B0%25D0%25B9%25D1%2582%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%2594%2B%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%259A&xslt_type=server" for 127.0.0.1 at 2023-01-22 15:01:46 +0300
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/viewer?number_a=15&number_b=21&xslt=0&convert_type=server" for 127.0.0.1 at 2023-01-22 15:02:14 +0300
+Processing by LogicController#viewer as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"0", "convert_type"=>"server"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 5.3ms | Allocations: 3092)
+  Rendered layout layouts/application.html.erb (Duration: 291.8ms | Allocations: 162542)
+Completed 200 OK in 298ms (Views: 294.2ms | ActiveRecord: 0.0ms | Allocations: 165464)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/xml?url=http%3A%2F%2F%5B%3A%3A1%5D%3A5000%2Flogic%2Fview.xml%3Fnumber_a%3D14%26number_b%3D21%26commit%3D%25D0%259D%25D0%25B0%25D0%25B9%25D1%2582%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%2594%2B%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%259A&xslt_type=server" for 127.0.0.1 at 2023-01-22 15:02:15 +0300
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/viewer?number_a=15&number_b=21&xslt=1&convert_type=server" for 127.0.0.1 at 2023-01-22 15:02:40 +0300
+Processing by LogicController#viewer as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"1", "convert_type"=>"server"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 4.3ms | Allocations: 3092)
+  Rendered layout layouts/application.html.erb (Duration: 108.6ms | Allocations: 82889)
+Completed 200 OK in 114ms (Views: 110.2ms | ActiveRecord: 0.0ms | Allocations: 85811)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/xml?url=http%3A%2F%2F%5B%3A%3A1%5D%3A5000%2Flogic%2Fview.xml%3Fnumber_a%3D14%26number_b%3D21%26commit%3D%25D0%259D%25D0%25B0%25D0%25B9%25D1%2582%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%2594%2B%25D0%25B8%2B%25D0%259D%25D0%259E%25D0%259A&xslt_type=server" for 127.0.0.1 at 2023-01-22 15:02:41 +0300
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/viewer?number_a=15&number_b=21&xslt=1&convert_type=client" for 127.0.0.1 at 2023-01-22 15:03:01 +0300
+Processing by LogicController#viewer as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"1", "convert_type"=>"client"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 4.9ms | Allocations: 3092)
+  Rendered layout layouts/application.html.erb (Duration: 111.6ms | Allocations: 82853)
+Completed 200 OK in 117ms (Views: 113.3ms | ActiveRecord: 0.0ms | Allocations: 85775)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/result?number_a=15&number_b=21&xslt=1&convert_type=client" for 127.0.0.1 at 2023-01-22 15:03:24 +0300
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/get_xml_remotely?number_a=15&number_b=21&xslt=1&convert_type=client" for 127.0.0.1 at 2023-01-22 15:03:43 +0300
+Processing by LogicController#get_xml_remotely as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"1", "convert_type"=>"client"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1250)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:05:05 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 5.0ms | Allocations: 3093)
+  Rendered layout layouts/application.html.erb (Duration: 108.4ms | Allocations: 82872)
+Completed 200 OK in 114ms (Views: 110.2ms | ActiveRecord: 0.0ms | Allocations: 85795)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/get_xml_remotely?number_a=15&number_b=21&xslt=0&convert_type=client" for 127.0.0.1 at 2023-01-22 15:05:05 +0300
+Processing by LogicController#get_xml_remotely as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"0", "convert_type"=>"client"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 202)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:05:19 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 4.6ms | Allocations: 3093)
+  Rendered layout layouts/application.html.erb (Duration: 109.9ms | Allocations: 82695)
+Completed 200 OK in 115ms (Views: 111.7ms | ActiveRecord: 0.0ms | Allocations: 85618)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/viewer?number_a=15&number_b=21&xslt=0&convert_type=client" for 127.0.0.1 at 2023-01-22 15:05:19 +0300
+Processing by LogicController#viewer as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"0", "convert_type"=>"client"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.2ms | Allocations: 953)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 5214)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 5494)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:25:47 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 5.5ms | Allocations: 3093)
+  Rendered layout layouts/application.html.erb (Duration: 115.5ms | Allocations: 82858)
+Completed 200 OK in 121ms (Views: 117.5ms | ActiveRecord: 0.0ms | Allocations: 85781)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:25:47 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.0ms | Allocations: 953)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 5213)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 5493)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:25:47 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.2ms | Allocations: 952)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 5212)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 5491)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/viewer?number_a=15&number_b=21&xslt=0&convert_type=client" for 127.0.0.1 at 2023-01-22 15:25:47 +0300
+Processing by LogicController#viewer as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"0", "convert_type"=>"client"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 0.9ms | Allocations: 952)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 5212)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 5491)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:26:11 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 5.0ms | Allocations: 3093)
+  Rendered layout layouts/application.html.erb (Duration: 110.0ms | Allocations: 82851)
+Completed 200 OK in 115ms (Views: 111.8ms | ActiveRecord: 0.0ms | Allocations: 85774)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:26:11 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.1ms | Allocations: 953)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 5213)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 5493)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/viewer?number_a=15&number_b=21&xslt=0&convert_type=client" for 127.0.0.1 at 2023-01-22 15:26:11 +0300
+Processing by LogicController#viewer as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"0", "convert_type"=>"client"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.4ms | Allocations: 952)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 5212)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 5491)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:29:27 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 4.1ms | Allocations: 3093)
+  Rendered layout layouts/application.html.erb (Duration: 109.3ms | Allocations: 82808)
+Completed 200 OK in 114ms (Views: 111.1ms | ActiveRecord: 0.0ms | Allocations: 85731)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:29:27 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 0.9ms | Allocations: 953)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 5213)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 5493)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/viewer?number_a=15&number_b=21&xslt=0&convert_type=client" for 127.0.0.1 at 2023-01-22 15:29:27 +0300
+Processing by LogicController#viewer as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"0", "convert_type"=>"client"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.2ms | Allocations: 952)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 5212)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 5491)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:31:11 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3092)
+  Rendered layout layouts/application.html.erb (Duration: 108.9ms | Allocations: 82814)
+Completed 200 OK in 114ms (Views: 110.8ms | ActiveRecord: 0.0ms | Allocations: 85737)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:31:11 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.0ms | Allocations: 953)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 5213)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 5493)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:31:11 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 37ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1184)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:31:11 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 809)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:31:11 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 809)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:31:11 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 10ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 809)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/viewer?number_a=15&number_b=21&xslt=0&convert_type=client" for 127.0.0.1 at 2023-01-22 15:31:11 +0300
+Processing by LogicController#viewer as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"0", "convert_type"=>"client"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.2ms | Allocations: 952)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 5212)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 5491)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:31:53 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 4.6ms | Allocations: 3092)
+  Rendered layout layouts/application.html.erb (Duration: 109.4ms | Allocations: 82862)
+Completed 200 OK in 114ms (Views: 111.0ms | ActiveRecord: 0.0ms | Allocations: 85785)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:31:54 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 0.9ms | Allocations: 953)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 5213)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 5493)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:31:54 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 13ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 1184)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:31:54 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 11ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 809)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:31:54 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 18ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 809)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:31:54 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 10ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 809)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/viewer?number_a=15&number_b=21&xslt=0&convert_type=client" for 127.0.0.1 at 2023-01-22 15:31:54 +0300
+Processing by LogicController#viewer as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"0", "convert_type"=>"client"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.1ms | Allocations: 952)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 5212)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 5491)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:36:15 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 6.5ms | Allocations: 3092)
+  Rendered layout layouts/application.html.erb (Duration: 130.8ms | Allocations: 82816)
+Completed 200 OK in 138ms (Views: 133.7ms | ActiveRecord: 0.0ms | Allocations: 85739)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:36:15 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.1ms | Allocations: 953)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 5214)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 5494)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:36:15 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 18ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 1184)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:36:15 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 13ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 809)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/viewer?number_a=15&number_b=21&xslt=0&convert_type=client" for 127.0.0.1 at 2023-01-22 15:36:15 +0300
+Processing by LogicController#viewer as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"0", "convert_type"=>"client"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.3ms | Allocations: 952)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 5212)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 5491)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:36:59 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3092)
+  Rendered layout layouts/application.html.erb (Duration: 117.6ms | Allocations: 82728)
+Completed 200 OK in 123ms (Views: 119.4ms | ActiveRecord: 0.0ms | Allocations: 85651)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:36:59 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.4ms | Allocations: 953)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 5214)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 5494)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:36:59 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 27ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 1184)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:36:59 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 809)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/viewer?number_a=15&number_b=21&xslt=0&convert_type=client" for 127.0.0.1 at 2023-01-22 15:36:59 +0300
+Processing by LogicController#viewer as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"0", "convert_type"=>"client"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.1ms | Allocations: 952)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 5212)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 5491)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:38:10 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 4.6ms | Allocations: 3092)
+  Rendered layout layouts/application.html.erb (Duration: 119.3ms | Allocations: 82768)
+Completed 200 OK in 125ms (Views: 121.2ms | ActiveRecord: 0.0ms | Allocations: 85691)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:38:10 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.3ms | Allocations: 952)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 5212)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 5492)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:38:10 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 13ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1184)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:38:11 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Completed 200 OK in 12ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 809)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/viewer?number_a=15&number_b=21&xslt=0&convert_type=client" for 127.0.0.1 at 2023-01-22 15:38:11 +0300
+Processing by LogicController#viewer as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"0", "convert_type"=>"client"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.5ms | Allocations: 953)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 5214)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 5493)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:41:47 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 967.7ms | Allocations: 952704)
+  Rendered layout layouts/application.html.erb (Duration: 1064.8ms | Allocations: 1032397)
+Completed 200 OK in 1077ms (Views: 1067.6ms | ActiveRecord: 0.0ms | Allocations: 1035321)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:41:48 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 2.8ms | Allocations: 965)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 5236)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms | Allocations: 5516)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:41:48 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 8)
+Completed 200 OK in 28ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 1195)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:41:48 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 819)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/viewer?number_a=15&number_b=21&xslt=0&convert_type=client" for 127.0.0.1 at 2023-01-22 15:41:48 +0300
+Processing by LogicController#viewer as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"0", "convert_type"=>"client"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.1ms | Allocations: 966)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 5241)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 5520)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:43:45 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 209.9ms | Allocations: 278366)
+  Rendered layout layouts/application.html.erb (Duration: 266.2ms | Allocations: 358121)
+Completed 200 OK in 272ms (Views: 268.4ms | ActiveRecord: 0.0ms | Allocations: 361045)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:43:45 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 0.9ms | Allocations: 965)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 5236)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 5516)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:43:45 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 8)
+Completed 200 OK in 26ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1194)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:43:45 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 819)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:43:45 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"596", "number_b"=>"295", "xslt"=>"1"}
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 740)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:43:45 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"794", "number_b"=>"268", "xslt"=>"1"}
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 711)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:43:45 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"684", "number_b"=>"316", "xslt"=>"1"}
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 711)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/viewer?number_a=15&number_b=21&xslt=0&convert_type=client" for 127.0.0.1 at 2023-01-22 15:43:45 +0300
+Processing by LogicController#viewer as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21", "xslt"=>"0", "convert_type"=>"client"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.2ms | Allocations: 965)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 5236)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 5515)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:45:43 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 260.0ms | Allocations: 278383)
+  Rendered layout layouts/application.html.erb (Duration: 372.6ms | Allocations: 358145)
+Completed 200 OK in 393ms (Views: 386.4ms | ActiveRecord: 0.0ms | Allocations: 361070)
+  [1m[36mTRANSACTION (6.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:45:44 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 4.7ms | Allocations: 965)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 5236)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 5516)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:45:44 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 8)
+Completed 200 OK in 53ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 1194)
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:45:44 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 15ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 819)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:45:44 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"363", "number_b"=>"708", "xslt"=>"1"}
+Completed 200 OK in 53ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 740)
+  [1m[36mTRANSACTION (4.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:45:44 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"167", "number_b"=>"875", "xslt"=>"1"}
+Completed 200 OK in 50ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 711)
+  [1m[36mTRANSACTION (5.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:45:56 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 272.2ms | Allocations: 278221)
+  Rendered layout layouts/application.html.erb (Duration: 473.8ms | Allocations: 358022)
+Completed 200 OK in 491ms (Views: 484.1ms | ActiveRecord: 0.0ms | Allocations: 360946)
+  [1m[36mTRANSACTION (6.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:45:57 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 4.4ms | Allocations: 965)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 5236)
+Completed 200 OK in 19ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 5516)
+  [1m[36mTRANSACTION (4.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:45:57 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.5ms | Allocations: 8)
+Completed 200 OK in 226ms (Views: 56.2ms | ActiveRecord: 0.0ms | Allocations: 1194)
+  [1m[36mTRANSACTION (4.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:45:57 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 132ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 819)
+  [1m[36mTRANSACTION (4.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:45:57 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"953", "number_b"=>"244", "xslt"=>"0"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 603ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 816)
+  [1m[36mTRANSACTION (6.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:45:58 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"268", "number_b"=>"792", "xslt"=>"0"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 29ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 792)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:46:00 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 178.0ms | Allocations: 278386)
+  Rendered layout layouts/application.html.erb (Duration: 222.3ms | Allocations: 358122)
+Completed 200 OK in 228ms (Views: 224.2ms | ActiveRecord: 0.0ms | Allocations: 361047)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:46:00 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 0.8ms | Allocations: 965)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 5236)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 5516)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:46:00 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 8)
+Completed 200 OK in 10ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1194)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:46:00 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 819)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:46:00 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"429", "number_b"=>"904", "xslt"=>"0"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 816)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:46:01 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"891", "number_b"=>"311", "xslt"=>"0"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 792)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:48:51 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 153.1ms | Allocations: 278220)
+  Rendered layout layouts/application.html.erb (Duration: 197.9ms | Allocations: 357690)
+Completed 200 OK in 203ms (Views: 199.7ms | ActiveRecord: 0.0ms | Allocations: 360614)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:48:52 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 0.8ms | Allocations: 965)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 5236)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 5516)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:48:52 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 8)
+Completed 200 OK in 17ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1194)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:48:52 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 819)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:48:52 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"643", "number_b"=>"916", "xslt"=>"1", "convert_type"=>"server"}
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 13)
+Completed 200 OK in 17ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 967)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:48:52 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"642", "number_b"=>"924", "xslt"=>"1", "convert_type"=>"server"}
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 7)
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 809)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:49:26 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 152.7ms | Allocations: 278211)
+  Rendered layout layouts/application.html.erb (Duration: 197.7ms | Allocations: 357855)
+Completed 200 OK in 207ms (Views: 203.6ms | ActiveRecord: 0.0ms | Allocations: 360779)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 15:49:27 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 0.9ms | Allocations: 965)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 5236)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 5516)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:49:27 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.1ms | Allocations: 8)
+Completed 200 OK in 14ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 1194)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:49:27 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 13ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 819)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:49:27 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"465", "number_b"=>"102", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 738)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 15:49:27 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"503", "number_b"=>"845", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 709)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 16:11:47 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 150.6ms | Allocations: 278220)
+  Rendered layout layouts/application.html.erb (Duration: 196.4ms | Allocations: 357884)
+Completed 200 OK in 201ms (Views: 198.1ms | ActiveRecord: 0.0ms | Allocations: 360808)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 16:11:47 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.1ms | Allocations: 965)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 5236)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 5516)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:11:47 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"973", "number_b"=>"438", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 960)
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:11:47 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"191", "number_b"=>"746", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 610)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:11:47 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 8)
+Completed 200 OK in 21ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 972)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:11:47 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 819)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:11:47 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"364", "number_b"=>"266", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 709)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:11:47 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"992", "number_b"=>"477", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 709)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 16:11:56 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 151.6ms | Allocations: 278382)
+  Rendered layout layouts/application.html.erb (Duration: 196.2ms | Allocations: 358008)
+Completed 200 OK in 201ms (Views: 198.0ms | ActiveRecord: 0.0ms | Allocations: 360933)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 16:11:56 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 0.8ms | Allocations: 965)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 5236)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 5516)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:11:56 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"525", "number_b"=>"592", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 960)
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:11:56 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"694", "number_b"=>"605", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 18ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 610)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:11:56 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 8)
+Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 972)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:11:56 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 819)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:11:56 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"333", "number_b"=>"266", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 709)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:11:56 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"140", "number_b"=>"470", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 709)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 16:14:29 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 146.2ms | Allocations: 278220)
+  Rendered layout layouts/application.html.erb (Duration: 189.9ms | Allocations: 357651)
+Completed 200 OK in 195ms (Views: 191.8ms | ActiveRecord: 0.0ms | Allocations: 360575)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 16:14:29 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 1.1ms | Allocations: 965)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 5236)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 5516)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:14:29 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"715", "number_b"=>"386", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 960)
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:14:29 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"898", "number_b"=>"127", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 610)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:14:29 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 8)
+Completed 200 OK in 9ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 972)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:14:29 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 11ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 819)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:14:29 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"186", "number_b"=>"355", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 709)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:14:29 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"462", "number_b"=>"143", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 709)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 16:48:13 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 204.0ms | Allocations: 278220)
+  Rendered layout layouts/application.html.erb (Duration: 252.9ms | Allocations: 357842)
+Completed 200 OK in 259ms (Views: 254.8ms | ActiveRecord: 0.0ms | Allocations: 360766)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-22 16:48:13 +0300
+Processing by LogicController#viewer as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/viewer.html.erb within layouts/application
+  Rendered logic/viewer.html.erb within layouts/application (Duration: 0.9ms | Allocations: 965)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 5236)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 5516)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:48:13 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"482", "number_b"=>"791", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 108ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 960)
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:48:13 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"786", "number_b"=>"482", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 610)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:48:13 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 8)
+Completed 200 OK in 8ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 972)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:48:13 +0300
+Processing by LogicController#result as HTML
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 819)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:48:13 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"121", "number_b"=>"379", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 709)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/result" for 127.0.0.1 at 2023-01-22 16:48:13 +0300
+Processing by LogicController#result as HTML
+  Parameters: {"number_a"=>"868", "number_b"=>"799", "xslt"=>"1", "convert_type"=>"client"}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 709)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m

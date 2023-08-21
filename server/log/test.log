@@ -1,0 +1,16 @@
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view.xml?number_a=8&number_b=52&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for 127.0.0.1 at 2023-01-19 13:31:44 +0300
+Processing by LogicController#view as XML
+  Parameters: {"number_a"=>"8", "number_b"=>"52", "commit"=>"Найти НОД и НОК"}
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 3135)
+Started GET "/logic/view.xml?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for 127.0.0.1 at 2023-01-19 13:31:44 +0300
+Processing by LogicController#view as XML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 442)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m

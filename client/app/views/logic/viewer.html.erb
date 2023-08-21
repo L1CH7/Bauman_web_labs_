@@ -1,0 +1,22 @@
+<h1>Logic#viewer</h1>
+<p>Find me in app/views/logic/viewer.html.erb</p>
+
+<%= form_with url: '/logic/result', data: { turbo: false }, id: 'main_form' do |form| %>
+  <%= form.label 'Введите 2 целых положительных числа:' %> <br/>
+  <%= form.number_field :number_a, value: 14 %> <br/>
+  <%= form.number_field :number_b, value: 21 %> <br/>
+  <%= form.label :xslt do%>
+    <%= form.check_box :xslt %> <%# return '1' if checked %>
+    Задействовать XSLT
+  <% end %>
+
+  <div id='radios'>
+    <%= form.radio_button(:convert_type, 'server', checked: true) %>
+    <%= form.label('XSLT серверный') %> <br/>
+    <%= form.radio_button(:convert_type, 'client') %>
+    <%= form.label('XSLT клиентский') %> <br/>
+  </div>
+
+  <br/> <br/>
+  <%= form.submit 'Перейти к рассчётам' %>
+<% end %>

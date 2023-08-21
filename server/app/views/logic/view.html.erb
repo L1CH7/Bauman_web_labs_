@@ -1,0 +1,27 @@
+<h2>Logic#view</h2>
+<p>Найдем НОД чисел A и B с помощью алгоритма Евклида:</p>
+<% a = @num_a %>
+<% b = @num_b %>
+<% i = 1 %>
+<p>A = <%= a %>, B = <%= b %></p>
+<% unless a == b || (a * b).zero? %>
+    <table border="1" cellspacing="0" cellpadding="0" width="100px" >
+    <tr>
+        <td> № </td>
+        <td> A </td>
+        <td> B </td>
+    </tr>
+    <% loop do %>
+        <tr>
+            <td> <%= i %></td>
+            <td> <%= a %></td>
+            <td> <%= b %></td>
+        </tr>
+        <% break if (a * b).zero? %>
+        <% a > b ? a %= b : b %= a %>
+        <% i += 1 %>
+    <% end %>
+    </table>
+<% end %>
+<p>НОД = <%= @nod %></p>
+<p>НОК = <%= @nok %></p>
