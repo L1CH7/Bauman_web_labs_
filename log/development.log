@@ -1,0 +1,2791 @@
+Started GET "/" for ::1 at 2022-12-12 19:02:08 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 47.2ms | Allocations: 5280)
+  Rendered layout layouts/application.html.erb (Duration: 422.8ms | Allocations: 170525)
+Completed 200 OK in 454ms (Views: 432.8ms | ActiveRecord: 0.0ms | Allocations: 175149)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 19:02:11 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 6.5ms | Allocations: 2099)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2193)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 2595)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    2: <p>Найдем НОД чисел A и B с помощью алгоритма Евклида:</p>
+    3: <% a = params[:number_a] %>
+    4: <% b = params[:number_b] %>
+    5: <% c = a * b %>
+    6: <p>A = <%= a %>, B = <%= b %></p>
+    7: <table>
+    8: <% while a * b != 0 %>
+  
+app/views/logic/view.html.erb:5:in `*'
+app/views/logic/view.html.erb:5
+Started GET "/" for ::1 at 2022-12-12 19:03:55 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 5.4ms | Allocations: 2017)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 8447)
+Completed 200 OK in 31ms (Views: 27.4ms | ActiveRecord: 0.0ms | Allocations: 9285)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 19:03:57 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 2.2ms | Allocations: 287)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 6258)
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 6595)
+
+
+Started GET "/logic/view?number_a=455543&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 19:06:25 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"455543", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 6008)
+Completed 200 OK in 18ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 6266)
+
+
+Started GET "/logic/view?number_a=455542&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 19:08:16 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"455542", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 5996)
+Completed 200 OK in 17ms (Views: 15.6ms | Allocations: 6255)
+
+
+Started GET "/logic/view?number_a=455541&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 19:08:23 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"455541", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 6011)
+Completed 200 OK in 17ms (Views: 15.3ms | Allocations: 6270)
+
+
+Started GET "/logic/view?number_a=21&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 19:12:36 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"21", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 6018)
+Completed 200 OK in 18ms (Views: 16.0ms | Allocations: 6274)
+
+
+Started GET "/logic/view?number_a=21&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 20:41:06 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"21", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 2.1ms | Allocations: 323)
+  Rendered layout layouts/application.html.erb (Duration: 39.1ms | Allocations: 37921)
+Completed 200 OK in 44ms (Views: 41.3ms | Allocations: 38876)
+
+
+Started GET "/" for ::1 at 2022-12-12 20:41:07 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1968)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 7950)
+Completed 200 OK in 12ms (Views: 9.9ms | Allocations: 8276)
+
+
+Started GET "/" for ::1 at 2022-12-12 20:41:24 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2009)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 8411)
+Completed 200 OK in 17ms (Views: 14.1ms | Allocations: 9224)
+
+
+Started GET "/" for ::1 at 2022-12-12 20:43:24 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2019)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 8433)
+Completed 200 OK in 15ms (Views: 12.9ms | Allocations: 9264)
+
+
+Started GET "/" for ::1 at 2022-12-12 20:44:35 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 9.8ms | Allocations: 2022)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 8440)
+Completed 200 OK in 27ms (Views: 24.2ms | Allocations: 9272)
+
+
+Started GET "/" for ::1 at 2022-12-12 20:45:01 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2021)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 8430)
+Completed 200 OK in 16ms (Views: 13.1ms | Allocations: 9261)
+
+
+Started GET "/" for ::1 at 2022-12-12 20:45:11 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2021)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 8432)
+Completed 200 OK in 16ms (Views: 13.9ms | Allocations: 9263)
+
+
+Started GET "/" for ::1 at 2022-12-12 21:02:08 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1976)
+  Rendered layout layouts/application.html.erb (Duration: 34.2ms | Allocations: 39612)
+Completed 200 OK in 39ms (Views: 36.2ms | Allocations: 40634)
+
+
+Started GET "/" for ::1 at 2022-12-12 21:02:09 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1673)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 7647)
+Completed 200 OK in 16ms (Views: 13.9ms | Allocations: 7917)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:02:11 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 4.1ms | Allocations: 4888)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 4967)
+Completed 500 Internal Server Error in 7ms (Allocations: 5283)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `a' for #<ActionView::Base:0x00000000012228>
+
+<p>A = '.freeze;@output_buffer.append=( a );@output_buffer.safe_append=', B = '.freeze;@output_buffer.append=( b );@output_buffer.safe_append='</p>
+                                        ^):
+    1: <h1>Logic#view</h1>
+    2: <p>Найдем НОД чисел A и B с помощью алгоритма Евклида:</p>
+    3: <p>A = <%= a %>, B = <%= b %></p>
+    4: <% a = @num_a %>
+    5: <% b = @num_b %>
+    6: <table>
+  
+app/views/logic/view.html.erb:3
+Started GET "/" for ::1 at 2022-12-12 21:02:35 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2021)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 8445)
+Completed 200 OK in 20ms (Views: 16.3ms | Allocations: 9252)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:02:37 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 4.7ms | Allocations: 4885)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 4964)
+Completed 500 Internal Server Error in 8ms (Allocations: 5288)
+
+
+  
+ActionView::Template::Error (undefined method `nod' for #<ActionView::Base:0x000000000125c0>):
+    12:     <% a > b ? a %= b : b %= a %>
+    13: <% end %>
+    14: </table>
+    15: <p>НОД = <%= nod(a, b) %></p>
+    16: <p>НОК = <%= nok(a, b) %></p>
+  
+app/views/logic/view.html.erb:15
+Started GET "/" for ::1 at 2022-12-12 21:10:30 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1976)
+  Rendered layout layouts/application.html.erb (Duration: 42.5ms | Allocations: 39619)
+Completed 200 OK in 47ms (Views: 44.5ms | Allocations: 40653)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:10:31 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+Completed 500 Internal Server Error in 2ms (Allocations: 509)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/logic_controller.rb:15:in `%'
+app/controllers/logic_controller.rb:15:in `nod'
+app/controllers/logic_controller.rb:14:in `nod'
+app/controllers/logic_controller.rb:15:in `nod'
+app/controllers/logic_controller.rb:35:in `define_output'
+Started GET "/" for ::1 at 2022-12-12 21:11:35 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1745)
+  Rendered layout layouts/application.html.erb (Duration: 44.1ms | Allocations: 39159)
+Completed 200 OK in 47ms (Views: 45.4ms | Allocations: 39868)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:11:37 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.9ms | Allocations: 291)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 6252)
+Completed 200 OK in 11ms (Views: 8.6ms | Allocations: 6624)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:15:38 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1247)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1335)
+Completed 500 Internal Server Error in 6ms (Allocations: 2149)
+
+
+  
+ActionView::Template::Error (divided by 0):
+     9:         <td> <%= a %></td>
+    10:         <td> <%= b %></td>
+    11:     </tr>
+    12:     <% a > b ? a %= b : b %= a %>
+    13: <% end %>
+    14: </table>
+    15: <p>НОД = <%= @nod %></p>
+  
+app/views/logic/view.html.erb:12:in `%'
+app/views/logic/view.html.erb:12
+Started GET "/" for ::1 at 2022-12-12 21:15:43 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1980)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 8345)
+Completed 200 OK in 15ms (Views: 13.2ms | Allocations: 8677)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:15:44 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.4ms | Allocations: 969)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1048)
+Completed 500 Internal Server Error in 4ms (Allocations: 1299)
+
+
+  
+ActionView::Template::Error (divided by 0):
+     9:         <td> <%= a %></td>
+    10:         <td> <%= b %></td>
+    11:     </tr>
+    12:     <% a > b ? a %= b : b %= a %>
+    13: <% end %>
+    14: </table>
+    15: <p>НОД = <%= @nod %></p>
+  
+app/views/logic/view.html.erb:12:in `%'
+app/views/logic/view.html.erb:12
+Started GET "/" for ::1 at 2022-12-12 21:27:35 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2021)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 8439)
+Completed 200 OK in 19ms (Views: 16.4ms | Allocations: 9246)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:27:36 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.4ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 6228)
+Completed 200 OK in 15ms (Views: 12.2ms | Allocations: 6576)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:28:51 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.0ms | Allocations: 299)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 6721)
+Completed 200 OK in 15ms (Views: 13.0ms | Allocations: 7556)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:28:53 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 5984)
+Completed 200 OK in 12ms (Views: 9.6ms | Allocations: 6278)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:28:59 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.9ms | Allocations: 299)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 6733)
+Completed 200 OK in 17ms (Views: 14.5ms | Allocations: 7569)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:30:33 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.0ms | Allocations: 302)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 6724)
+Completed 200 OK in 15ms (Views: 12.3ms | Allocations: 7578)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:30:45 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.3ms | Allocations: 300)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 6725)
+Completed 200 OK in 16ms (Views: 13.5ms | Allocations: 7580)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:30:51 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.2ms | Allocations: 298)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 6723)
+Completed 200 OK in 14ms (Views: 12.0ms | Allocations: 7577)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:32:31 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1252)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1340)
+Completed 500 Internal Server Error in 6ms (Allocations: 2166)
+
+
+  
+ActionView::Template::Error (divided by 0):
+    10:         <td> <%= b %></td>
+    11:     </tr>
+    12:     <% a %= b if a > b %>
+    13:     <% b %= a if a < b %>
+    14: <% end %>
+    15: </table>
+    16: <p>НОД = <%= @nod %></p>
+  
+app/views/logic/view.html.erb:13:in `%'
+app/views/logic/view.html.erb:13
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:33:42 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.0ms | Allocations: 302)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 6752)
+Completed 200 OK in 16ms (Views: 13.4ms | Allocations: 7602)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:34:30 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.2ms | Allocations: 302)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 6736)
+Completed 200 OK in 15ms (Views: 12.2ms | Allocations: 7590)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:35:40 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1261)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1350)
+Completed 500 Internal Server Error in 6ms (Allocations: 2181)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Logic#view</h1>
+<p>Найдем НОД чисел A и B с помощью алгоритма Евклида:</p>
+<% a = @num_a %>
+<% b = @num_b %>
+<p>A = <%= a %>, B = <%= b %></p>
+<table border="1" cellspacing="0" cellpadding="0" width="100px" >
+<% do %>
+    <tr>
+        <td> <%= a %></td>
+        <td> <%= b %></td>
+    </tr>
+    <% if a > b 
+         a %= b
+       else
+         b %= a if a < b 
+       end %>
+<% while a * b != 0 %>
+</table>
+<p>НОД = <%= @nod %></p>
+<p>НОК = <%= @nok %></p>
+
+):
+1:    <h1>Logic#view</h1>
+2:    <p>Найдем НОД чисел A и B с помощью алгоритма Евклида:</p>
+3:    <% a = @num_a %>
+4:    <% b = @num_b %>
+5:    <p>A = <%= a %>, B = <%= b %></p>
+6:    <table border="1" cellspacing="0" cellpadding="0" width="100px" >
+7:    <% do %>
+8:        <tr>
+9:            <td> <%= a %></td>
+10:            <td> <%= b %></td>
+11:        </tr>
+12:        <% if a > b 
+13:             a %= b
+14:           else
+15:             b %= a if a < b 
+16:           end %>
+17:    <% while a * b != 0 %>
+18:    </table>
+19:    <p>НОД = <%= @nod %></p>
+20:    <p>НОК = <%= @nok %></p>
+  
+app/views/logic/view.html.erb:7: syntax error, unexpected `do', expecting `end'
+app/views/logic/view.html.erb:23: syntax error, unexpected end-of-input, expecting `end'
+app/views/logic/view.html.erb:7: syntax error, unexpected `do', expecting `end'
+app/views/logic/view.html.erb:23: syntax error, unexpected end-of-input, expecting `end'
+app/views/logic/view.html.erb:7: syntax error, unexpected `do', expecting `end'
+app/views/logic/view.html.erb:23: syntax error, unexpected end-of-input, expecting `end'
+app/views/logic/view.html.erb:7: syntax error, unexpected `do', expecting `end'
+app/views/logic/view.html.erb:23: syntax error, unexpected end-of-input, expecting `end'
+app/views/logic/view.html.erb:7: syntax error, unexpected `do', expecting `end'
+app/views/logic/view.html.erb:23: syntax error, unexpected end-of-input, expecting `end'
+app/views/logic/view.html.erb:7: syntax error, unexpected `do', expecting `end'
+app/views/logic/view.html.erb:23: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:37:03 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.1ms | Allocations: 319)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 6760)
+Completed 200 OK in 16ms (Views: 13.5ms | Allocations: 7610)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:37:05 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 5985)
+Completed 200 OK in 12ms (Views: 9.9ms | Allocations: 6279)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:37:24 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.6ms | Allocations: 324)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 6746)
+Completed 200 OK in 16ms (Views: 13.6ms | Allocations: 7581)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:40:22 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.0ms | Allocations: 395)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 6811)
+Completed 200 OK in 15ms (Views: 12.4ms | Allocations: 7665)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:40:23 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 5984)
+Completed 200 OK in 14ms (Views: 12.3ms | Allocations: 6278)
+
+
+Started GET "/" for ::1 at 2022-12-12 21:40:24 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1954)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 7916)
+Completed 200 OK in 17ms (Views: 14.5ms | Allocations: 8224)
+
+
+Started GET "/logic/view?number_a=0&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:40:28 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"0", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+Redirected to http://[::1]:3000/
+Filter chain halted as :correction_check rendered or redirected
+Completed 302 Found in 3ms (Allocations: 499)
+
+
+Started GET "/" for ::1 at 2022-12-12 21:40:28 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1673)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 7673)
+Completed 200 OK in 12ms (Views: 10.1ms | Allocations: 7928)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:40:30 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 6018)
+Completed 200 OK in 12ms (Views: 9.6ms | Allocations: 6295)
+
+
+Started GET "/logic/view?number_a=0&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:40:37 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"0", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+Redirected to http://[::1]:3000/
+Filter chain halted as :correction_check rendered or redirected
+Completed 302 Found in 2ms (Allocations: 430)
+
+
+Started GET "/" for ::1 at 2022-12-12 21:40:37 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1673)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 7682)
+Completed 200 OK in 20ms (Views: 18.7ms | Allocations: 7938)
+
+
+Started GET "/logic/view?number_a=0&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:40:41 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"0", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+Redirected to http://[::1]:3000/
+Filter chain halted as :correction_check rendered or redirected
+Completed 302 Found in 3ms (Allocations: 416)
+
+
+Started GET "/" for ::1 at 2022-12-12 21:40:41 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1673)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 7691)
+Completed 200 OK in 11ms (Views: 9.7ms | Allocations: 7946)
+
+
+Started GET "/logic/view?number_a=-14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:42:29 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"-14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+Redirected to http://[::1]:3000/
+Filter chain halted as :correction_check rendered or redirected
+Completed 302 Found in 3ms (Allocations: 422)
+
+
+Started GET "/" for ::1 at 2022-12-12 21:42:29 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1673)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 7696)
+Completed 200 OK in 11ms (Views: 9.8ms | Allocations: 7951)
+
+
+Started GET "/logic/view?number_a=14&number_b=14&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:44:27 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"14", "commit"=>"Найти НОД и НОК"}
+Completed 500 Internal Server Error in 2ms (Allocations: 482)
+
+
+  
+TypeError (nil can't be coerced into Integer):
+  
+app/controllers/logic_controller.rb:19:in `/'
+app/controllers/logic_controller.rb:19:in `nok'
+app/controllers/logic_controller.rb:36:in `define_output'
+Started PUT "/__web_console/repl_sessions/27021896895f2d309a1c359af79e3c05" for ::1 at 2022-12-12 21:45:10 +0300
+Started PUT "/__web_console/repl_sessions/27021896895f2d309a1c359af79e3c05" for ::1 at 2022-12-12 21:45:11 +0300
+Started PUT "/__web_console/repl_sessions/27021896895f2d309a1c359af79e3c05" for ::1 at 2022-12-12 21:45:17 +0300
+Started PUT "/__web_console/repl_sessions/27021896895f2d309a1c359af79e3c05" for ::1 at 2022-12-12 21:45:21 +0300
+Started PUT "/__web_console/repl_sessions/27021896895f2d309a1c359af79e3c05" for ::1 at 2022-12-12 21:45:26 +0300
+Started PUT "/__web_console/repl_sessions/27021896895f2d309a1c359af79e3c05" for ::1 at 2022-12-12 21:52:32 +0300
+Started PUT "/__web_console/repl_sessions/27021896895f2d309a1c359af79e3c05" for ::1 at 2022-12-12 21:52:37 +0300
+Started PUT "/__web_console/repl_sessions/27021896895f2d309a1c359af79e3c05" for ::1 at 2022-12-12 21:52:46 +0300
+Started GET "/" for ::1 at 2022-12-12 21:53:29 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1745)
+  Rendered layout layouts/application.html.erb (Duration: 34.3ms | Allocations: 39200)
+Completed 200 OK in 37ms (Views: 35.3ms | Allocations: 39909)
+
+
+Started GET "/logic/view?number_a=14&number_b=14&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:53:33 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"14", "commit"=>"Найти НОД и НОК"}
+Completed 500 Internal Server Error in 2ms (Allocations: 494)
+
+
+  
+TypeError (nil can't be coerced into Integer):
+  
+app/controllers/logic_controller.rb:19:in `/'
+app/controllers/logic_controller.rb:19:in `nok'
+app/controllers/logic_controller.rb:36:in `define_output'
+Started PUT "/__web_console/repl_sessions/f9d386bfe9ed7ea21051574b78d4da2e" for ::1 at 2022-12-12 21:53:36 +0300
+Started PUT "/__web_console/repl_sessions/f9d386bfe9ed7ea21051574b78d4da2e" for ::1 at 2022-12-12 21:53:40 +0300
+Started PUT "/__web_console/repl_sessions/f9d386bfe9ed7ea21051574b78d4da2e" for ::1 at 2022-12-12 21:53:43 +0300
+Started GET "/" for ::1 at 2022-12-12 21:54:38 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1745)
+  Rendered layout layouts/application.html.erb (Duration: 42.8ms | Allocations: 39214)
+Completed 200 OK in 46ms (Views: 44.0ms | Allocations: 39923)
+
+
+Started GET "/logic/view?number_a=14&number_b=14&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:54:41 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"14", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+Started GET "/" for ::1 at 2022-12-12 21:58:30 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 23.8ms | Allocations: 3555)
+  Rendered layout layouts/application.html.erb (Duration: 165.4ms | Allocations: 86664)
+Completed 200 OK in 178ms (Views: 170.5ms | ActiveRecord: 0.0ms | Allocations: 90092)
+
+
+Started GET "/logic/view?number_a=14&number_b=14&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 21:58:34 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"14", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+Started GET "/" for ::1 at 2022-12-12 22:00:58 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 10.5ms | Allocations: 3555)
+  Rendered layout layouts/application.html.erb (Duration: 117.4ms | Allocations: 86650)
+Completed 200 OK in 130ms (Views: 122.0ms | ActiveRecord: 0.0ms | Allocations: 90078)
+
+
+Started GET "/logic/view?number_a=14&number_b=14&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:01:02 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"14", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+Started GET "/" for ::1 at 2022-12-12 22:06:27 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 12.2ms | Allocations: 3555)
+  Rendered layout layouts/application.html.erb (Duration: 137.7ms | Allocations: 86537)
+Completed 200 OK in 149ms (Views: 141.4ms | ActiveRecord: 0.0ms | Allocations: 89965)
+
+
+Started GET "/logic/view?number_a=14&number_b=14&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:06:31 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"14", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+Started GET "/" for ::1 at 2022-12-12 22:07:20 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 9.2ms | Allocations: 3555)
+  Rendered layout layouts/application.html.erb (Duration: 111.6ms | Allocations: 86749)
+Completed 200 OK in 127ms (Views: 116.7ms | ActiveRecord: 0.0ms | Allocations: 90177)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:07:22 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.3ms | Allocations: 399)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 6560)
+Completed 200 OK in 16ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 6993)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:07:49 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.6ms | Allocations: 891)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 7339)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 8191)
+
+
+Started PUT "/__web_console/repl_sessions/278836562f1f9ee1eb426e346266666c" for ::1 at 2022-12-12 22:07:51 +0300
+Started PUT "/__web_console/repl_sessions/278836562f1f9ee1eb426e346266666c" for ::1 at 2022-12-12 22:07:53 +0300
+Started PUT "/__web_console/repl_sessions/278836562f1f9ee1eb426e346266666c" for ::1 at 2022-12-12 22:08:06 +0300
+Started PUT "/__web_console/repl_sessions/278836562f1f9ee1eb426e346266666c" for ::1 at 2022-12-12 22:08:08 +0300
+Started PUT "/__web_console/repl_sessions/278836562f1f9ee1eb426e346266666c" for ::1 at 2022-12-12 22:08:18 +0300
+Started PUT "/__web_console/repl_sessions/278836562f1f9ee1eb426e346266666c" for ::1 at 2022-12-12 22:08:30 +0300
+Started PUT "/__web_console/repl_sessions/278836562f1f9ee1eb426e346266666c" for ::1 at 2022-12-12 22:08:39 +0300
+Started PUT "/__web_console/repl_sessions/278836562f1f9ee1eb426e346266666c" for ::1 at 2022-12-12 22:08:40 +0300
+Started PUT "/__web_console/repl_sessions/278836562f1f9ee1eb426e346266666c" for ::1 at 2022-12-12 22:08:47 +0300
+Started PUT "/__web_console/repl_sessions/278836562f1f9ee1eb426e346266666c" for ::1 at 2022-12-12 22:08:52 +0300
+Started PUT "/__web_console/repl_sessions/278836562f1f9ee1eb426e346266666c" for ::1 at 2022-12-12 22:08:54 +0300
+Started PUT "/__web_console/repl_sessions/278836562f1f9ee1eb426e346266666c" for ::1 at 2022-12-12 22:08:54 +0300
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:12:52 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.2ms | Allocations: 473)
+  Rendered layout layouts/application.html.erb (Duration: 144.3ms | Allocations: 37944)
+Completed 200 OK in 147ms (Views: 145.4ms | Allocations: 38681)
+
+
+Started GET "/" for ::1 at 2022-12-12 22:12:54 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1964)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 7962)
+Completed 200 OK in 18ms (Views: 15.4ms | Allocations: 8294)
+
+
+Started GET "/logic/view?number_a=14&number_b=14&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:12:58 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"14", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+Started GET "/" for ::1 at 2022-12-12 22:15:18 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 8.5ms | Allocations: 3545)
+  Rendered layout layouts/application.html.erb (Duration: 114.7ms | Allocations: 87050)
+Completed 200 OK in 128ms (Views: 120.1ms | ActiveRecord: 0.0ms | Allocations: 90470)
+
+
+Started GET "/logic/view?number_a=14&number_b=14&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:15:21 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"14", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+Started GET "/" for ::1 at 2022-12-12 22:18:52 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 10.1ms | Allocations: 3555)
+  Rendered layout layouts/application.html.erb (Duration: 99.4ms | Allocations: 86896)
+Completed 200 OK in 117ms (Views: 104.0ms | ActiveRecord: 0.0ms | Allocations: 90324)
+
+
+Started GET "/logic/view?number_a=14&number_b=14&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:18:55 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"14", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.4ms | Allocations: 858)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 7033)
+Completed 200 OK in 15ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 7466)
+
+
+Started PUT "/__web_console/repl_sessions/30af0c9b397cf463ac0249185af5e0bf" for ::1 at 2022-12-12 22:22:46 +0300
+Started PUT "/__web_console/repl_sessions/30af0c9b397cf463ac0249185af5e0bf" for ::1 at 2022-12-12 22:22:48 +0300
+Started PUT "/__web_console/repl_sessions/30af0c9b397cf463ac0249185af5e0bf" for ::1 at 2022-12-12 22:22:59 +0300
+Started GET "/logic/view?number_a=14&number_b=14&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:24:43 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"14", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.7ms | Allocations: 840)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 7310)
+Completed 200 OK in 24ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 8216)
+
+
+Started GET "/" for ::1 at 2022-12-12 22:24:52 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1956)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 7988)
+Completed 200 OK in 20ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 8325)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:24:54 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.2ms | Allocations: 517)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 6513)
+Completed 200 OK in 10ms (Views: 8.4ms | Allocations: 6794)
+
+
+Started GET "/logic/view?number_a=0&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:25:00 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"0", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+Redirected to http://[::1]:3000/
+Filter chain halted as :correction_check rendered or redirected
+Completed 302 Found in 4ms (Allocations: 540)
+
+
+Started GET "/" for ::1 at 2022-12-12 22:25:00 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1673)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 7663)
+Completed 200 OK in 15ms (Views: 13.0ms | Allocations: 7918)
+
+
+Started GET "/" for ::1 at 2022-12-12 22:28:12 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2020)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 8533)
+Completed 200 OK in 23ms (Views: 17.9ms | Allocations: 9340)
+
+
+Started GET "/" for ::1 at 2022-12-12 22:28:13 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1673)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 7657)
+Completed 200 OK in 13ms (Views: 11.2ms | Allocations: 7928)
+
+
+Started GET "/logic/view?number_a=14&number_b=0&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:28:17 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"0", "commit"=>"Найти НОД и НОК"}
+Redirected to http://[::1]:3000/
+Filter chain halted as :correction_check rendered or redirected
+Completed 302 Found in 3ms (Allocations: 410)
+
+
+Started GET "/" for ::1 at 2022-12-12 22:28:17 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1673)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 7689)
+Completed 200 OK in 13ms (Views: 11.1ms | Allocations: 7945)
+
+
+Started GET "/logic/view?number_a=14&number_b=-11&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:28:24 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"-11", "commit"=>"Найти НОД и НОК"}
+Redirected to http://[::1]:3000/
+Filter chain halted as :correction_check rendered or redirected
+Completed 302 Found in 3ms (Allocations: 412)
+
+
+Started GET "/" for ::1 at 2022-12-12 22:28:24 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1673)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 7692)
+Completed 200 OK in 25ms (Views: 22.9ms | Allocations: 7947)
+
+
+Started GET "/logic/view?number_a=14&number_b=2122q&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:28:27 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"2122q", "commit"=>"Найти НОД и НОК"}
+Redirected to http://[::1]:3000/
+Filter chain halted as :correction_check rendered or redirected
+Completed 302 Found in 3ms (Allocations: 397)
+
+
+Started GET "/" for ::1 at 2022-12-12 22:28:27 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 11.4ms | Allocations: 1673)
+  Rendered layout layouts/application.html.erb (Duration: 49.4ms | Allocations: 7683)
+Completed 200 OK in 52ms (Views: 50.1ms | Allocations: 7938)
+
+
+Started GET "/logic/view?number_a=14&number_b=14&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:28:32 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"14", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 2.1ms | Allocations: 806)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 6787)
+Completed 200 OK in 16ms (Views: 13.0ms | Allocations: 7118)
+
+
+Started GET "/" for ::1 at 2022-12-12 22:30:55 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2022)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 8523)
+Completed 200 OK in 20ms (Views: 16.8ms | Allocations: 9331)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:30:56 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.5ms | Allocations: 357)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 6345)
+Completed 200 OK in 14ms (Views: 11.2ms | Allocations: 6693)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-12 22:32:01 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.3ms | Allocations: 395)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 6894)
+Completed 200 OK in 21ms (Views: 18.2ms | Allocations: 7729)
+
+
+Started GET "/" for ::1 at 2022-12-30 14:37:41 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 14.5ms | Allocations: 3668)
+  Rendered layout layouts/application.html.erb (Duration: 220.4ms | Allocations: 87621)
+Completed 200 OK in 234ms (Views: 224.7ms | ActiveRecord: 0.0ms | Allocations: 91048)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-30 14:37:44 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.4ms | Allocations: 403)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 6914)
+Completed 200 OK in 17ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 7352)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-30 14:38:02 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 6440)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6728)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-30 14:48:04 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.5ms | Allocations: 629)
+  Rendered layout layouts/application.html.erb (Duration: 265.3ms | Allocations: 106953)
+Completed 200 OK in 276ms (Views: 268.8ms | ActiveRecord: 0.0ms | Allocations: 110429)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-30 14:48:56 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/logic/view"):
+  
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-30 14:53:20 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/logic/view"):
+  
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-30 14:53:21 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/logic/view"):
+  
+Started GET "/" for ::1 at 2022-12-30 14:53:40 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 11.8ms | Allocations: 4675)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 4763)
+Completed 500 Internal Server Error in 21ms (Allocations: 5737)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `destination_path' for #<ActionView::Base:0x0000000000e8d0>
+
+'.freeze;@output_buffer.append=  form_with url: destination_path, method: :get do |form| @output_buffer.safe_append='
+                                                ^^^^^^^^^^^^^^^^):
+    12: </pre>
+    13: 
+    14: <h4>Задание:</h4>
+    15: <%= form_with url: destination_path, method: :get do |form| %>
+    16:     <%= form.label 'Введите 2 целых положительных числа:' %> <br/>
+    17:     <%= form.number_field :number_a, value: 14 %> <br/>
+    18:     <%= form.number_field :number_b, value: 21 %> <br/>
+  
+app/views/logic/input.html.erb:15
+Started GET "/" for ::1 at 2022-12-30 14:54:25 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 46.5ms | Allocations: 8495)
+  Rendered layout layouts/application.html.erb (Duration: 85.1ms | Allocations: 46465)
+Completed 200 OK in 90ms (Views: 87.5ms | Allocations: 47302)
+
+
+Started GET "/result?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-30 14:54:27 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/result"):
+  
+Started GET "/" for ::1 at 2022-12-30 14:54:27 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1701)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 8134)
+Completed 200 OK in 13ms (Views: 11.1ms | Allocations: 8411)
+
+
+Started GET "/result?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-30 14:54:29 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/result"):
+  
+Started GET "/" for ::1 at 2022-12-30 14:54:29 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1674)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 8098)
+Completed 200 OK in 11ms (Views: 9.4ms | Allocations: 8351)
+
+
+Started GET "/result?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-30 14:54:31 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/result"):
+  
+Started GET "/" for ::1 at 2022-12-30 14:54:31 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1673)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 8102)
+Completed 200 OK in 19ms (Views: 17.2ms | Allocations: 8357)
+
+
+Started GET "/result?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-30 14:54:32 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/result"):
+  
+Started GET "/" for ::1 at 2022-12-30 14:54:32 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1674)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 8110)
+Completed 200 OK in 13ms (Views: 11.1ms | Allocations: 8364)
+
+
+Started GET "/result?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2022-12-30 14:54:33 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/result"):
+  
+Started GET "/" for ::1 at 2022-12-30 14:54:33 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1674)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 8082)
+Completed 200 OK in 18ms (Views: 15.5ms | Allocations: 8335)
+
+
+Started GET "/" for ::1 at 2022-12-30 14:55:20 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2878)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 9092)
+Completed 200 OK in 25ms (Views: 22.2ms | Allocations: 9900)
+
+
+Started POST "/result" for ::1 at 2022-12-30 14:55:21 +0300
+  
+AbstractController::ActionNotFound (The action 'result' could not be found for LogicController):
+  
+actionpack (7.0.4) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-12-30 14:55:21 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2546)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 8432)
+Completed 200 OK in 15ms (Views: 13.4ms | Allocations: 8722)
+
+
+Started GET "/" for ::1 at 2023-01-13 17:27:26 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 18.9ms | Allocations: 4607)
+  Rendered layout layouts/application.html.erb (Duration: 236.8ms | Allocations: 87442)
+Completed 200 OK in 250ms (Views: 241.0ms | ActiveRecord: 0.0ms | Allocations: 90869)
+
+
+Started POST "/result" for ::1 at 2023-01-13 17:27:28 +0300
+  
+AbstractController::ActionNotFound (The action 'result' could not be found for LogicController):
+  
+actionpack (7.0.4) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2023-01-13 17:27:28 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 10.8ms | Allocations: 2518)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 8405)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.0ms | Allocations: 8706)
+
+
+Started POST "/result" for ::1 at 2023-01-13 17:27:30 +0300
+  
+AbstractController::ActionNotFound (The action 'result' could not be found for LogicController):
+  
+actionpack (7.0.4) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2023-01-13 17:27:30 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2404)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 8182)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 8439)
+
+
+Started POST "/result" for ::1 at 2023-01-13 17:27:31 +0300
+  
+AbstractController::ActionNotFound (The action 'result' could not be found for LogicController):
+  
+actionpack (7.0.4) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2023-01-13 17:27:31 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2380)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 8158)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 8416)
+
+
+Started GET "/" for ::1 at 2023-01-13 17:54:54 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.9ms | Allocations: 2954)
+  Rendered logic/input.html.erb within layouts/application (Duration: 10.7ms | Allocations: 4991)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 5077)
+Completed 500 Internal Server Error in 17ms (Allocations: 5882)
+
+
+  
+ActionView::Template::Error (Missing partial logic/_result, application/_result with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/media/l1ch/EA6624216623ECCF/МГТУ/3 семестр/ЯИП/ЛР/LW9/app/views"
+  * "/home/l1ch/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "/home/l1ch/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  logic/result_message
+               logic/form
+               action_text/attachables/remote_image
+               layouts/action_text/contents/content
+               action_text/contents/content
+               action_text/attachables/missing_attachable):
+     5:       <%= render 'form' %>
+     6:     </div>  
+     7:     <div class="margin-top: 0.75rem;" id="result-div">
+     8:       <%= render 'result' %>
+     9:     </div>  
+    10:   </div>
+    11: </div>
+  
+app/views/logic/input.html.erb:8
+Started GET "/main/input" for ::1 at 2023-01-18 17:13:59 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/main/input"):
+  
+Started GET "/" for ::1 at 2023-01-18 17:14:02 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 28.3ms | Allocations: 4209)
+  Rendered logic/_output.html.erb (Duration: 1.8ms | Allocations: 382)
+  Rendered logic/input.html.erb within layouts/application (Duration: 34.2ms | Allocations: 5036)
+  Rendered layout layouts/application.html.erb (Duration: 163.1ms | Allocations: 87742)
+Completed 200 OK in 177ms (Views: 165.8ms | ActiveRecord: 0.0ms | Allocations: 89981)
+
+
+Started POST "/" for ::1 at 2023-01-18 17:14:08 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+Started GET "/" for ::1 at 2023-01-18 17:14:08 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.1ms | Allocations: 2297)
+  Rendered logic/_output.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2416)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 8300)
+Completed 200 OK in 19ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 8598)
+
+
+Started POST "/" for ::1 at 2023-01-18 17:14:09 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+Started GET "/" for ::1 at 2023-01-18 17:14:09 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.9ms | Allocations: 2221)
+  Rendered logic/_output.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2340)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 8105)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 8361)
+
+
+Started POST "/" for ::1 at 2023-01-18 17:14:23 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+Started GET "/" for ::1 at 2023-01-18 17:14:23 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.2ms | Allocations: 2207)
+  Rendered logic/_output.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2326)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 8104)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 8362)
+
+
+Started GET "/" for ::1 at 2023-01-18 17:25:29 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 3.1ms | Allocations: 2606)
+  Rendered logic/input.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2902)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 9099)
+Completed 200 OK in 26ms (Views: 22.0ms | Allocations: 9915)
+
+
+Started POST "/" for ::1 at 2023-01-18 17:25:31 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+Started GET "/" for ::1 at 2023-01-18 17:25:31 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.7ms | Allocations: 2211)
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2271)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 8049)
+Completed 200 OK in 17ms (Views: 14.6ms | Allocations: 8321)
+
+
+Started POST "/" for ::1 at 2023-01-18 17:25:32 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+Started GET "/" for ::1 at 2023-01-18 17:25:32 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.5ms | Allocations: 2217)
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2277)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 8055)
+Completed 200 OK in 19ms (Views: 16.2ms | Allocations: 8310)
+
+
+Started GET "/" for ::1 at 2023-01-18 17:27:25 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.2ms | Allocations: 2716)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2790)
+  Rendered layout layouts/application.html.erb (Duration: 51.4ms | Allocations: 39754)
+Completed 200 OK in 55ms (Views: 53.1ms | Allocations: 40384)
+
+
+Started POST "/" for ::1 at 2023-01-18 17:27:27 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+Started GET "/" for ::1 at 2023-01-18 17:27:27 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 4.0ms | Allocations: 2208)
+  Rendered logic/input.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2268)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 8046)
+Completed 200 OK in 19ms (Views: 15.9ms | Allocations: 8318)
+
+
+Started GET "/" for ::1 at 2023-01-18 17:55:30 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.8ms | Allocations: 2524)
+  Rendered logic/input.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2818)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 9014)
+Completed 200 OK in 24ms (Views: 20.9ms | Allocations: 9821)
+
+
+Started POST "/logic/result" for ::1 at 2023-01-18 17:55:32 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/logic/result"):
+  
+Started GET "/" for ::1 at 2023-01-18 17:55:32 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.9ms | Allocations: 2144)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2204)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 7982)
+Completed 200 OK in 15ms (Views: 13.0ms | Allocations: 8255)
+
+
+Started GET "/" for ::1 at 2023-01-19 12:12:53 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 16.6ms | Allocations: 4048)
+  Rendered logic/input.html.erb within layouts/application (Duration: 19.7ms | Allocations: 4597)
+  Rendered layout layouts/application.html.erb (Duration: 212.1ms | Allocations: 87136)
+Completed 200 OK in 226ms (Views: 216.6ms | ActiveRecord: 0.0ms | Allocations: 90524)
+
+
+Started POST "/logic/result" for ::1 at 2023-01-19 12:12:55 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/logic/result"):
+  
+Started GET "/" for ::1 at 2023-01-19 12:12:56 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.1ms | Allocations: 2252)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2312)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 8184)
+Completed 200 OK in 25ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 8480)
+
+
+Started GET "/" for ::1 at 2023-01-19 12:18:04 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.3ms | Allocations: 2552)
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2822)
+  Rendered layout layouts/application.html.erb (Duration: 65.8ms | Allocations: 40026)
+Completed 200 OK in 70ms (Views: 67.7ms | Allocations: 40983)
+
+
+Started POST "/result" for ::1 at 2023-01-19 12:18:06 +0300
+  
+AbstractController::ActionNotFound (The action 'result' could not be found for LogicController):
+  
+actionpack (7.0.4) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2023-01-19 12:18:06 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.9ms | Allocations: 2177)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2237)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 8006)
+Completed 200 OK in 15ms (Views: 12.8ms | Allocations: 8279)
+
+
+Started GET "/" for ::1 at 2023-01-19 12:19:13 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.7ms | Allocations: 2314)
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2388)
+  Rendered layout layouts/application.html.erb (Duration: 50.0ms | Allocations: 39351)
+Completed 200 OK in 54ms (Views: 51.7ms | Allocations: 39981)
+
+
+Started POST "/result" for ::1 at 2023-01-19 12:19:16 +0300
+  
+AbstractController::ActionNotFound (The action 'result' could not be found for LogicController):
+  
+actionpack (7.0.4) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2023-01-19 12:19:16 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.2ms | Allocations: 2156)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2216)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 7994)
+Completed 200 OK in 20ms (Views: 18.2ms | Allocations: 8269)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2023-01-20 00:36:41 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/logic/view"):
+  
+Started GET "/" for ::1 at 2023-01-20 00:36:44 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 47.1ms | Allocations: 5569)
+  Rendered logic/input.html.erb within layouts/application (Duration: 48.6ms | Allocations: 5853)
+  Rendered layout layouts/application.html.erb (Duration: 327.9ms | Allocations: 170134)
+Completed 200 OK in 339ms (Views: 329.6ms | ActiveRecord: 0.0ms | Allocations: 172806)
+
+
+Started POST "/result" for ::1 at 2023-01-20 00:36:49 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+No template found for LogicController#result, rendering head :no_content
+Completed 204 No Content in 3ms (ActiveRecord: 0.0ms | Allocations: 1043)
+
+
+Started POST "/result" for ::1 at 2023-01-20 00:36:56 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+No template found for LogicController#result, rendering head :no_content
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 609)
+
+
+Started GET "/" for ::1 at 2023-01-20 00:40:47 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 5.1ms | Allocations: 2691)
+  Rendered logic/input.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2966)
+  Rendered layout layouts/application.html.erb (Duration: 93.2ms | Allocations: 40148)
+Completed 200 OK in 97ms (Views: 94.8ms | Allocations: 41105)
+
+
+Started POST "/result" for ::1 at 2023-01-20 00:40:49 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+No template found for LogicController#result, rendering head :no_content
+Completed 204 No Content in 3ms (Allocations: 889)
+
+
+Started GET "/" for ::1 at 2023-01-20 00:41:31 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.6ms | Allocations: 2476)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2550)
+  Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 39482)
+Completed 200 OK in 37ms (Views: 35.6ms | Allocations: 40111)
+
+
+Started POST "/result" for ::1 at 2023-01-20 00:41:33 +0300
+  
+AbstractController::ActionNotFound (The action 'result' could not be found for LogicController):
+  
+actionpack (7.0.4) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2023-01-20 00:41:33 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.7ms | Allocations: 2312)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.0ms | Allocations: 2372)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 8146)
+Completed 200 OK in 13ms (Views: 10.9ms | Allocations: 8419)
+
+
+Started GET "/" for ::1 at 2023-01-20 00:44:02 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.8ms | Allocations: 2493)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2567)
+  Rendered layout layouts/application.html.erb (Duration: 41.0ms | Allocations: 39547)
+Completed 200 OK in 43ms (Views: 41.9ms | Allocations: 40176)
+
+
+Started POST "/result" for ::1 at 2023-01-20 00:44:04 +0300
+  
+AbstractController::ActionNotFound (The action 'result' could not be found for LogicController):
+  
+actionpack (7.0.4) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2023-01-20 00:44:04 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.8ms | Allocations: 2345)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.0ms | Allocations: 2405)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 8180)
+Completed 200 OK in 16ms (Views: 13.8ms | Allocations: 8451)
+
+
+Started GET "/" for ::1 at 2023-01-20 00:44:17 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.6ms | Allocations: 2541)
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.8ms | Allocations: 2615)
+  Rendered layout layouts/application.html.erb (Duration: 34.3ms | Allocations: 39570)
+Completed 200 OK in 37ms (Views: 35.2ms | Allocations: 40199)
+
+
+Started POST "/result" for ::1 at 2023-01-20 00:44:18 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+No template found for LogicController#result, rendering head :no_content
+Completed 204 No Content in 3ms (Allocations: 635)
+
+
+Started GET "/" for ::1 at 2023-01-20 00:48:35 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.2ms | Allocations: 2718)
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2991)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 9189)
+Completed 200 OK in 18ms (Views: 15.4ms | Allocations: 10035)
+
+
+Started POST "/result" for ::1 at 2023-01-20 00:48:37 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 1.7ms | Allocations: 2049)
+  Rendered logic/result.turbo_stream.erb (Duration: 19.0ms | Allocations: 7863)
+Completed 500 Internal Server Error in 23ms (Allocations: 8858)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass
+
+'.freeze;         @arr.each do |i, a, b| 
+                      ^^^^^):
+     6:             <td> A </td>
+     7:             <td> B </td>
+     8:         </tr>
+     9:         <% @arr.each do |i, a, b| %>
+    10:             <tr>
+    11:                 <td> <%= i %></td>
+    12:                 <td> <%= a %></td>
+  
+app/views/logic/_result_message.html.erb:9
+app/views/logic/result.turbo_stream.erb:1
+Started GET "/" for ::1 at 2023-01-20 00:58:05 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.8ms | Allocations: 2485)
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2559)
+  Rendered layout layouts/application.html.erb (Duration: 39.5ms | Allocations: 39516)
+Completed 200 OK in 42ms (Views: 40.6ms | Allocations: 40144)
+
+
+Started POST "/result" for ::1 at 2023-01-20 00:58:06 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 34)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.4ms | Allocations: 210)
+Completed 200 OK in 3ms (Views: 0.9ms | Allocations: 1029)
+
+
+Started GET "/" for ::1 at 2023-01-20 02:55:35 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 10.0ms | Allocations: 4308)
+  Rendered logic/input.html.erb within layouts/application (Duration: 11.9ms | Allocations: 4857)
+  Rendered layout layouts/application.html.erb (Duration: 110.4ms | Allocations: 86802)
+Completed 200 OK in 121ms (Views: 113.8ms | ActiveRecord: 0.0ms | Allocations: 90191)
+
+
+Started POST "/result" for ::1 at 2023-01-20 02:55:37 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"15", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 1.2ms | Allocations: 305)
+  Rendered logic/result.turbo_stream.erb (Duration: 8.0ms | Allocations: 923)
+Completed 200 OK in 13ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 2142)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:00:12 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.4ms | Allocations: 2114)
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2174)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 8045)
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 8341)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:00:13 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.8ms | Allocations: 199)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 783)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:03:36 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.0ms | Allocations: 2018)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2078)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 7851)
+Completed 200 OK in 14ms (Views: 11.5ms | Allocations: 8108)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:03:37 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.4ms | Allocations: 199)
+Completed 200 OK in 3ms (Views: 0.9ms | Allocations: 750)
+
+
+Started GET "/" for ::1 at 2023-01-20 03:04:17 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 3.3ms | Allocations: 2724)
+  Rendered logic/input.html.erb within layouts/application (Duration: 5.3ms | Allocations: 2999)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 9197)
+Completed 200 OK in 19ms (Views: 16.7ms | Allocations: 10009)
+
+
+Started POST "/result" for ::1 at 2023-01-20 03:04:27 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"15", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.6ms | Allocations: 258)
+  Rendered logic/result.turbo_stream.erb (Duration: 2.1ms | Allocations: 618)
+Completed 200 OK in 6ms (Views: 3.0ms | Allocations: 1615)
+
+
+Started GET "/" for ::1 at 2023-01-20 03:04:41 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.5ms | Allocations: 2713)
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2983)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 9181)
+Completed 200 OK in 17ms (Views: 14.5ms | Allocations: 9992)
+
+
+Started POST "/result" for ::1 at 2023-01-20 03:04:42 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"15", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.7ms | Allocations: 257)
+  Rendered logic/result.turbo_stream.erb (Duration: 2.3ms | Allocations: 616)
+Completed 200 OK in 6ms (Views: 3.0ms | Allocations: 1614)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:08:52 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 7.9ms | Allocations: 2021)
+  Rendered logic/input.html.erb within layouts/application (Duration: 8.2ms | Allocations: 2081)
+  Rendered layout layouts/application.html.erb (Duration: 30.1ms | Allocations: 7846)
+Completed 200 OK in 33ms (Views: 30.7ms | Allocations: 8099)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:08:52 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.2ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.5ms | Allocations: 199)
+Completed 200 OK in 3ms (Views: 0.9ms | Allocations: 758)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:10:27 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.3ms | Allocations: 2016)
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2076)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 7851)
+Completed 200 OK in 12ms (Views: 10.4ms | Allocations: 8105)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:10:27 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.4ms | Allocations: 199)
+Completed 200 OK in 3ms (Views: 0.8ms | Allocations: 770)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:13:07 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.3ms | Allocations: 2016)
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.5ms | Allocations: 2076)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 7846)
+Completed 200 OK in 10ms (Views: 8.7ms | Allocations: 8099)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:13:08 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.4ms | Allocations: 199)
+Completed 200 OK in 2ms (Views: 0.8ms | Allocations: 756)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:13:16 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.9ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 7855)
+Completed 200 OK in 14ms (Views: 11.7ms | Allocations: 8110)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:13:16 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.4ms | Allocations: 199)
+Completed 200 OK in 3ms (Views: 1.0ms | Allocations: 757)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:13:49 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.6ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.8ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 7853)
+Completed 200 OK in 11ms (Views: 9.6ms | Allocations: 8106)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:13:49 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.0ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.3ms | Allocations: 199)
+Completed 200 OK in 2ms (Views: 0.7ms | Allocations: 770)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:14:40 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.5ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.8ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 7847)
+Completed 200 OK in 12ms (Views: 9.9ms | Allocations: 8100)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:14:40 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.3ms | Allocations: 199)
+Completed 200 OK in 3ms (Views: 0.8ms | Allocations: 745)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:18:31 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 8.1ms | Allocations: 3961)
+  Rendered logic/input.html.erb within layouts/application (Duration: 10.2ms | Allocations: 4510)
+  Rendered layout layouts/application.html.erb (Duration: 83.0ms | Allocations: 87404)
+Completed 200 OK in 93ms (Views: 86.1ms | ActiveRecord: 0.0ms | Allocations: 90793)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:18:31 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.7ms | Allocations: 313)
+  Rendered logic/result.turbo_stream.erb (Duration: 9.2ms | Allocations: 933)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 1963)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:18:57 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.0ms | Allocations: 2105)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2165)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 8043)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 8340)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:18:58 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.3ms | Allocations: 199)
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:20:15 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.6ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 7843)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 8103)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:20:15 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.0ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.5ms | Allocations: 199)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 795)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:20:34 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.2ms | Allocations: 2018)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2078)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 7856)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 8116)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:20:35 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.5ms | Allocations: 199)
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 756)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:21:13 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.8ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 7853)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 8109)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:21:14 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.4ms | Allocations: 199)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 753)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:21:27 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.9ms | Allocations: 2016)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2076)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 7841)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 8097)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:21:27 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.5ms | Allocations: 199)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 765)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:22:13 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 3.1ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 7853)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 8109)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:22:14 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.4ms | Allocations: 199)
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 759)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:22:28 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.3ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 7848)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 8104)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:22:29 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.4ms | Allocations: 199)
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 759)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:23:01 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 3.6ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 7855)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 8116)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:23:01 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.4ms | Allocations: 199)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 756)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:23:18 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.5ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.0ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 7853)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 8109)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:23:18 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.4ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.6ms | Allocations: 199)
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 752)
+
+
+Started POST "/result" for ::1 at 2023-01-20 03:23:39 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"15", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.5ms | Allocations: 193)
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 963)
+
+
+Started POST "/result" for ::1 at 2023-01-20 03:23:42 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"15", "number_b"=>"23", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.4ms | Allocations: 199)
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 957)
+
+
+Started POST "/result" for ::1 at 2023-01-20 03:23:46 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"15", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.6ms | Allocations: 193)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 971)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:24:26 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.6ms | Allocations: 2016)
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.8ms | Allocations: 2076)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 7847)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 8103)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:24:26 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.0ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.3ms | Allocations: 199)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 768)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:24:37 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.8ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 7850)
+Completed 200 OK in 13ms (Views: 10.7ms | Allocations: 8103)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:24:37 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.4ms | Allocations: 199)
+Completed 200 OK in 2ms (Views: 0.8ms | Allocations: 756)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:24:42 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.8ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 7853)
+Completed 200 OK in 22ms (Views: 18.9ms | Allocations: 8106)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:24:42 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.4ms | Allocations: 199)
+Completed 200 OK in 3ms (Views: 1.7ms | Allocations: 749)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:24:58 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.8ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 7854)
+Completed 200 OK in 13ms (Views: 11.1ms | Allocations: 8108)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:24:58 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.0ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.3ms | Allocations: 199)
+Completed 200 OK in 2ms (Views: 0.8ms | Allocations: 783)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:25:09 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.6ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.8ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 7850)
+Completed 200 OK in 12ms (Views: 10.5ms | Allocations: 8103)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:25:10 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.0ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.3ms | Allocations: 199)
+Completed 200 OK in 3ms (Views: 0.9ms | Allocations: 749)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:25:16 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.3ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 7853)
+Completed 200 OK in 12ms (Views: 10.3ms | Allocations: 8106)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:25:16 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"1415", "number_b"=>"2121", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.4ms | Allocations: 199)
+Completed 200 OK in 3ms (Views: 0.9ms | Allocations: 762)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:26:23 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.7ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.0ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 7852)
+Completed 200 OK in 13ms (Views: 11.1ms | Allocations: 8105)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:27:17 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.5ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 7850)
+Completed 200 OK in 12ms (Views: 10.2ms | Allocations: 8105)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:27:18 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"15", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.3ms | Allocations: 193)
+Completed 200 OK in 3ms (Views: 0.8ms | Allocations: 749)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 03:27:30 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.3ms | Allocations: 2017)
+  Rendered logic/input.html.erb within layouts/application (Duration: 1.5ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 7853)
+Completed 200 OK in 11ms (Views: 10.0ms | Allocations: 8107)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 03:27:31 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"15", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.3ms | Allocations: 193)
+Completed 200 OK in 2ms (Views: 0.7ms | Allocations: 772)
+
+
+Started GET "/" for ::1 at 2023-01-20 14:07:46 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 10.7ms | Allocations: 4299)
+  Rendered logic/input.html.erb within layouts/application (Duration: 13.0ms | Allocations: 4848)
+  Rendered layout layouts/application.html.erb (Duration: 145.3ms | Allocations: 87626)
+Completed 200 OK in 160ms (Views: 148.7ms | ActiveRecord: 0.0ms | Allocations: 91014)
+
+
+Started POST "/result" for ::1 at 2023-01-20 14:07:48 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 1.2ms | Allocations: 299)
+  Rendered logic/result.turbo_stream.erb (Duration: 3.8ms | Allocations: 917)
+Completed 200 OK in 8ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 2135)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-20 14:08:02 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 1.9ms | Allocations: 2114)
+  Rendered logic/input.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2174)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 8045)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 8341)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-20 14:08:02 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"15", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.3ms | Allocations: 193)
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/" for ::1 at 2023-01-20 14:14:45 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 8.3ms | Allocations: 4290)
+  Rendered logic/input.html.erb within layouts/application (Duration: 10.3ms | Allocations: 4839)
+  Rendered layout layouts/application.html.erb (Duration: 138.8ms | Allocations: 87734)
+Completed 200 OK in 149ms (Views: 141.8ms | ActiveRecord: 0.0ms | Allocations: 91122)
+
+
+Started POST "/result" for ::1 at 2023-01-20 14:14:47 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.7ms | Allocations: 301)
+  Rendered logic/result.turbo_stream.erb (Duration: 2.7ms | Allocations: 922)
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2158)
+
+
+Started GET "/logic/view?number_a=14&number_b=21&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8+%D0%9D%D0%9E%D0%94+%D0%B8+%D0%9D%D0%9E%D0%9A" for ::1 at 2023-01-21 17:15:01 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/logic/view"):
+  
+Started GET "/" for ::1 at 2023-01-21 17:15:07 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 19.1ms | Allocations: 4366)
+  Rendered logic/input.html.erb within layouts/application (Duration: 20.3ms | Allocations: 4650)
+  Rendered layout layouts/application.html.erb (Duration: 189.5ms | Allocations: 109656)
+Completed 200 OK in 198ms (Views: 191.3ms | ActiveRecord: 0.0ms | Allocations: 111896)
+
+
+Started POST "/result" for ::1 at 2023-01-21 17:15:31 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"14", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 2.9ms | Allocations: 301)
+  Rendered logic/result.turbo_stream.erb (Duration: 5.7ms | Allocations: 919)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 2423)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-21 17:16:03 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 3.8ms | Allocations: 2114)
+  Rendered logic/input.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2174)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 8046)
+Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 8341)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-21 17:16:03 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"15", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.7ms | Allocations: 194)
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 792)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-21 17:16:58 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/_form.html.erb (Duration: 2.5ms | Allocations: 2016)
+  Rendered logic/input.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2076)
+  Rendered layout layouts/application.html.erb (Duration: 27.6ms | Allocations: 7846)
+Completed 200 OK in 32ms (Views: 28.9ms | ActiveRecord: 0.0ms | Allocations: 8102)
+
+
+Started POST "/result" for 127.0.0.1 at 2023-01-21 17:16:59 +0300
+Processing by LogicController#result as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "number_a"=>"15", "number_b"=>"21", "commit"=>"Найти НОД и НОК"}
+  Rendering logic/result.turbo_stream.erb
+  Rendered logic/_result_message.html.erb (Duration: 0.0ms | Allocations: 38)
+  Rendered logic/result.turbo_stream.erb (Duration: 0.4ms | Allocations: 193)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 740)
+
+

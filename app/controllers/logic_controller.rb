@@ -1,0 +1,61 @@
+# frozen_string_literal: true
+
+# a controller for logic
+class LogicController < ApplicationController
+  def input; end
+
+  # result - `cuz the result.turbo_stream.erb file
+  def result
+    correction_check
+    define_output
+    respond_to do |format|
+      format.turbo_stream
+      format.html { redirect_to result_url, notice: 'Result was successfully updated' }
+    end
+  end
+
+  def nod(x, y)
+    return x + y if (x * y).zero?
+
+    x > y ? nod(x % y, y) : nod(x, y % x)
+  end
+
+  def nok(x, y)
+    x * y != 0 ? x * y / nod(x, y) : 0
+  end
+
+  def correction_check
+    a_st = params[:number_a]
+    b_st = params[:number_b]
+    @num_a = a_st.to_i
+    @num_b = b_st.to_i
+    if @num_a.to_s != a_st || @num_b.to_s != b_st
+      error_notice = 'Некорректный ввод! Можно вводить только целые числа без использования иных символов.'
+    end
+    error_notice = 'Некорректный ввод! Введите целые числа, большие нуля.' if @num_a <= 0 || @num_b <= 0
+    redirect_to(root_path, notice: error_notice) unless error_notice.nil?
+  end
+
+  def iterations(a, b)
+    res = []
+    unless a == b || (a * b).zero?
+      i = 1
+      loop do
+        res.append [i, a, b]
+        break if (a * b).zero?
+
+        a > b ? a %= b : b %= a
+        i += 1
+      end
+    end
+    res
+  end
+
+  def define_output
+    @nod = nod(@num_a, @num_b)
+    @nok = nok(@num_a, @num_b)
+    @arr = iterations(@num_a, @num_b)
+    @result = { nod: @nod, nok: @nok }
+    params[:result] = @result
+  end
+end
