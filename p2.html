@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LW4-2</title>
+        <link rel="stylesheet"
+        href="https://e-learning.bmstu.ru/iu6/pluginfile.php/16891/mod_resource/content/1/bootstrap.min.css">
+
+        <script src='p2.js'></script>
+        <style>
+            body{
+                background-color: beige;
+            }
+            table{
+                border: 1px solid;
+                margin: 10px;
+            }
+            .input-block {
+                margin-top: 10px;
+            }
+            .cat:hover{
+                background-color:rgba(0, 238, 255, 0.651);
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2>Прайс</h2>
+                    <table id="catalog" border="1" class="table-bordered">
+                    <thead>
+                        <th>Наименование</th>
+                        <th>Стоимость</th>
+                    </thead>
+                    <tbody>
+                        <tr onclick="add(this)" class="cat">
+                            <td>Говядина, кг</td>
+                            <td>700</td>
+                        </tr>
+                        <tr onclick="add(this)" class="cat">
+                            <td>Бастурма</td>
+                            <td>2000</td>
+                        </tr>
+                        <tr onclick="add(this)" class="cat">
+                            <td>TWS наушники</td>
+                            <td>7000</td>
+                        </tr>
+                        <tr onclick="add(this)" class="cat">
+                            <td>SSD nvme.m2 2tb</td>
+                            <td>10000</td>
+                        </tr>
+                        <tr onclick="add(this)" class="cat">
+                            <td>Ягуар оригинальный</td>
+                            <td>200</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+                
+            <div class="col-6">
+                <h2>Накладная</h2>
+                
+                <table border="1" id="chosen" class="table-bordered">
+                <thead>
+                    <th>Наименование</th>
+                    <th>Стоимость</th>
+                </thead>
+                <tbody id="tbd">
+
+                </tbody>
+                </table>
+                <div class="input-block">
+                    <button id="calc" onclick="summ()">Расчитать цену:</button>
+                    <div id="calc-res"></div>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+
+    </body>
+</html>

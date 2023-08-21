@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LW4-1</title>
+        <script src='p1.js'></script>
+        <style>
+            body{
+                background-color: beige;
+            }
+            table{
+                border: 1px solid;
+                margin: 10px;
+            }
+            .input-block {
+            margin-top: 10px;
+            }
+            .cost-td:hover{
+                background-color:rgba(0, 238, 255, 0.651);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <div class="input-block">
+                <label for="name">Наименование</label>
+                <input type="text" id="name" name="name" placeholder="Наименование">
+            </div>
+    
+            <div class="input-block">
+                <label for="price">Стоимость</label>
+                <input type="text" id="cost" name="cost" placeholder="Цена">
+            </div>
+            <div class="input-block">
+                <button id="submit" onclick="add()">Добавить</button>
+            </div>
+            <div class="input-block">
+                <button id="calc" onclick="summ()">Расчитать цену:</button>
+                <div id="calc-res"></div>
+            </div>
+        </div>
+
+        <table border="1" id="table" class="table-bordered">
+            <thead>
+                <th>Наименование</th>
+                <th>Стоимость</th>
+            </thead>
+            <tbody id="tbd">
+
+            </tbody>
+        </table>
+    </body>
+</html>
