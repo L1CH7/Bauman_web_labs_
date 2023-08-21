@@ -1,0 +1,502 @@
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+LogicControllerTest: test_should_be_true
+----------------------------------------
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+LogicControllerTest: test_should_get_input
+------------------------------------------
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+LogicControllerTest: test_should_get_view
+-----------------------------------------
+Started GET "/logic/view" for 127.0.0.1 at 2023-01-19 18:20:13 +0300
+Processing by LogicController#view as HTML
+Redirected to http://www.example.com/
+Filter chain halted as :correction_check rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms | Allocations: 1807)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+LogicControllerTest: test_should_be_true
+----------------------------------------
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+LogicControllerTest: test_should_be_true
+----------------------------------------
+Started GET "/logic/input?number_a=21&number_b=14" for 127.0.0.1 at 2023-01-19 18:21:10 +0300
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+LogicControllerTest: test_should_be_true
+----------------------------------------
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+LogicControllerTest: test_should_be_true
+----------------------------------------
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 18:29:53 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 20.0ms | Allocations: 2168)
+  Rendered layout layouts/application.html.erb (Duration: 725.8ms | Allocations: 161990)
+Completed 200 OK in 745ms (Views: 731.7ms | ActiveRecord: 0.0ms | Allocations: 165342)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 18:58:03 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 11.0ms | Allocations: 2168)
+  Rendered layout layouts/application.html.erb (Duration: 198.9ms | Allocations: 82227)
+Completed 200 OK in 215ms (Views: 203.5ms | ActiveRecord: 0.0ms | Allocations: 85578)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 18:59:10 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 11.3ms | Allocations: 2168)
+  Rendered layout layouts/application.html.erb (Duration: 195.1ms | Allocations: 82060)
+Completed 200 OK in 211ms (Views: 199.9ms | ActiveRecord: 0.0ms | Allocations: 85412)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 18:59:28 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 13.3ms | Allocations: 2167)
+  Rendered layout layouts/application.html.erb (Duration: 139.8ms | Allocations: 82189)
+Completed 200 OK in 158ms (Views: 145.0ms | ActiveRecord: 0.0ms | Allocations: 85541)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=14&number_b=21" for 127.0.0.1 at 2023-01-19 18:59:28 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.2ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 4662)
+Completed 200 OK in 12ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 5062)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 19:38:48 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 12.2ms | Allocations: 2167)
+  Rendered layout layouts/application.html.erb (Duration: 144.7ms | Allocations: 82099)
+Completed 200 OK in 162ms (Views: 149.6ms | ActiveRecord: 0.0ms | Allocations: 85451)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started POST "/logic/view" for 127.0.0.1 at 2023-01-19 19:38:48 +0300
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 19:42:04 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 12.6ms | Allocations: 2167)
+  Rendered layout layouts/application.html.erb (Duration: 196.1ms | Allocations: 82105)
+Completed 200 OK in 213ms (Views: 201.0ms | ActiveRecord: 0.0ms | Allocations: 85457)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=14&number_b=21" for 127.0.0.1 at 2023-01-19 19:42:04 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.0ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 4668)
+Completed 200 OK in 8ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 5068)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 19:43:17 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 12.3ms | Allocations: 2167)
+  Rendered layout layouts/application.html.erb (Duration: 198.7ms | Allocations: 82143)
+Completed 200 OK in 215ms (Views: 203.5ms | ActiveRecord: 0.0ms | Allocations: 85495)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=14&number_b=21" for 127.0.0.1 at 2023-01-19 19:43:17 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.6ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 4667)
+Completed 200 OK in 12ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 5067)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 19:44:02 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 11.5ms | Allocations: 2167)
+  Rendered layout layouts/application.html.erb (Duration: 229.2ms | Allocations: 82124)
+Completed 200 OK in 245ms (Views: 233.9ms | ActiveRecord: 0.0ms | Allocations: 85476)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=14&number_b=21" for 127.0.0.1 at 2023-01-19 19:44:03 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.4ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 4668)
+Completed 200 OK in 12ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 5068)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 19:44:48 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 12.7ms | Allocations: 2167)
+  Rendered layout layouts/application.html.erb (Duration: 194.1ms | Allocations: 82148)
+Completed 200 OK in 211ms (Views: 198.9ms | ActiveRecord: 0.0ms | Allocations: 85500)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=14&number_b=21" for 127.0.0.1 at 2023-01-19 19:44:49 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.4ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 4667)
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 5067)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 19:45:03 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 12.4ms | Allocations: 2167)
+  Rendered layout layouts/application.html.erb (Duration: 197.0ms | Allocations: 82148)
+Completed 200 OK in 214ms (Views: 201.8ms | ActiveRecord: 0.0ms | Allocations: 85500)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=14&number_b=21" for 127.0.0.1 at 2023-01-19 19:45:03 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.7ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 4667)
+Completed 200 OK in 14ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 5067)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 19:45:46 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 11.8ms | Allocations: 2167)
+  Rendered layout layouts/application.html.erb (Duration: 138.9ms | Allocations: 82111)
+Completed 200 OK in 156ms (Views: 143.7ms | ActiveRecord: 0.0ms | Allocations: 85463)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=14&number_b=21" for 127.0.0.1 at 2023-01-19 19:45:46 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 2.3ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 4662)
+Completed 200 OK in 13ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 5062)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 19:54:33 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 12.2ms | Allocations: 2167)
+  Rendered layout layouts/application.html.erb (Duration: 141.8ms | Allocations: 82125)
+Completed 200 OK in 159ms (Views: 146.9ms | ActiveRecord: 0.0ms | Allocations: 85477)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=14&number_b=21" for 127.0.0.1 at 2023-01-19 19:54:33 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 8.2ms | Allocations: 4491)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 4541)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 4947)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 19:55:04 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 12.0ms | Allocations: 2167)
+  Rendered layout layouts/application.html.erb (Duration: 238.5ms | Allocations: 82165)
+Completed 200 OK in 253ms (Views: 243.4ms | ActiveRecord: 0.0ms | Allocations: 85517)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=14&number_b=21" for 127.0.0.1 at 2023-01-19 19:55:04 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 2.0ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 4668)
+Completed 200 OK in 11ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 5072)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 19:57:07 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 13.0ms | Allocations: 2167)
+  Rendered layout layouts/application.html.erb (Duration: 144.5ms | Allocations: 82139)
+Completed 200 OK in 163ms (Views: 149.7ms | ActiveRecord: 0.0ms | Allocations: 85491)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=14&number_b=21" for 127.0.0.1 at 2023-01-19 19:57:08 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.8ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 4662)
+Completed 200 OK in 9ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 5066)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 20:08:31 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 12.4ms | Allocations: 2167)
+  Rendered layout layouts/application.html.erb (Duration: 200.7ms | Allocations: 82080)
+Completed 200 OK in 217ms (Views: 205.6ms | ActiveRecord: 0.0ms | Allocations: 85432)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=14&number_b=21" for 127.0.0.1 at 2023-01-19 20:08:31 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 9.1ms | Allocations: 4497)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 4547)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 4953)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 20:08:45 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 11.8ms | Allocations: 2167)
+  Rendered layout layouts/application.html.erb (Duration: 197.3ms | Allocations: 82024)
+Completed 200 OK in 215ms (Views: 202.2ms | ActiveRecord: 0.0ms | Allocations: 85376)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=14&number_b=21" for 127.0.0.1 at 2023-01-19 20:08:45 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.9ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 4668)
+Completed 200 OK in 18ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 5072)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 20:12:52 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 12.1ms | Allocations: 2167)
+  Rendered layout layouts/application.html.erb (Duration: 137.5ms | Allocations: 82007)
+Completed 200 OK in 155ms (Views: 142.4ms | ActiveRecord: 0.0ms | Allocations: 85359)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=14&number_b=21" for 127.0.0.1 at 2023-01-19 20:12:52 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"14", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.8ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 4662)
+Completed 200 OK in 18ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 5066)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-19 23:27:39 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 42.9ms | Allocations: 3892)
+  Rendered layout layouts/application.html.erb (Duration: 327.5ms | Allocations: 161253)
+Completed 200 OK in 355ms (Views: 336.8ms | ActiveRecord: 0.0ms | Allocations: 165834)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=15&number_b=21" for 127.0.0.1 at 2023-01-19 23:27:39 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.7ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 4673)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 5077)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-20 14:05:44 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2168)
+  Rendered layout layouts/application.html.erb (Duration: 134.4ms | Allocations: 82147)
+Completed 200 OK in 143ms (Views: 137.3ms | ActiveRecord: 0.0ms | Allocations: 85499)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=15&number_b=21" for 127.0.0.1 at 2023-01-20 14:05:44 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.7ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 4675)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 5080)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-20 14:15:43 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 6.7ms | Allocations: 2168)
+  Rendered layout layouts/application.html.erb (Duration: 154.0ms | Allocations: 82070)
+Completed 200 OK in 164ms (Views: 157.3ms | ActiveRecord: 0.0ms | Allocations: 85422)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=15&number_b=21" for 127.0.0.1 at 2023-01-20 14:15:43 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.8ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 4673)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 5078)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-20 14:16:54 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 5.8ms | Allocations: 2168)
+  Rendered layout layouts/application.html.erb (Duration: 130.7ms | Allocations: 82090)
+Completed 200 OK in 139ms (Views: 133.3ms | ActiveRecord: 0.0ms | Allocations: 85442)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=15&number_b=21" for 127.0.0.1 at 2023-01-20 14:16:54 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.8ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 4673)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 5074)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-20 14:17:25 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 5.7ms | Allocations: 2168)
+  Rendered layout layouts/application.html.erb (Duration: 136.3ms | Allocations: 82032)
+Completed 200 OK in 146ms (Views: 139.4ms | ActiveRecord: 0.0ms | Allocations: 85384)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=15&number_b=21" for 127.0.0.1 at 2023-01-20 14:17:25 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.5ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 4673)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 5074)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-20 14:17:58 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 7.0ms | Allocations: 2185)
+  Rendered layout layouts/application.html.erb (Duration: 80.1ms | Allocations: 82000)
+Completed 200 OK in 93ms (Views: 83.6ms | ActiveRecord: 0.0ms | Allocations: 85351)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=15&number_b=21" for 127.0.0.1 at 2023-01-20 14:17:59 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.8ms | Allocations: 302)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 4692)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 5093)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-21 08:12:23 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 6.9ms | Allocations: 2185)
+  Rendered layout layouts/application.html.erb (Duration: 84.4ms | Allocations: 82227)
+Completed 200 OK in 95ms (Views: 87.9ms | ActiveRecord: 0.0ms | Allocations: 85578)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=15&number_b=21" for 127.0.0.1 at 2023-01-21 08:12:23 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 1.0ms | Allocations: 302)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 4692)
+Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 5093)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-21 08:12:40 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2185)
+  Rendered layout layouts/application.html.erb (Duration: 132.9ms | Allocations: 82141)
+Completed 200 OK in 142ms (Views: 136.0ms | ActiveRecord: 0.0ms | Allocations: 85492)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=15&number_b=21" for 127.0.0.1 at 2023-01-21 08:12:40 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.8ms | Allocations: 307)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 4697)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 5098)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2023-01-21 16:30:09 +0300
+Processing by LogicController#input as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering logic/input.html.erb within layouts/application
+  Rendered logic/input.html.erb within layouts/application (Duration: 5.3ms | Allocations: 2263)
+  Rendered layout layouts/application.html.erb (Duration: 208.5ms | Allocations: 103017)
+Completed 200 OK in 216ms (Views: 211.1ms | ActiveRecord: 0.0ms | Allocations: 106368)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/logic/view?number_a=15&number_b=21" for 127.0.0.1 at 2023-01-21 16:30:09 +0300
+Processing by LogicController#view as HTML
+  Parameters: {"number_a"=>"15", "number_b"=>"21"}
+  Rendering layout layouts/application.html.erb
+  Rendering logic/view.html.erb within layouts/application
+  Rendered logic/view.html.erb within layouts/application (Duration: 0.7ms | Allocations: 307)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 4697)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 5098)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m

@@ -1,0 +1,19 @@
+<h2>Logic#view</h2>
+<p>Найдем НОД чисел A и B с помощью алгоритма Евклида:</p>
+<table border="1" cellspacing="0" cellpadding="0" width="100px" >
+    <tr>
+        <td> № </td>
+        <td> A </td>
+        <td> B </td>
+    </tr>
+    <% @arr.each do |i, a, b| %>
+        <tr>
+            <td> <%= i %></td>
+            <td> <%= a %></td>
+            <td> <%= b %></td>
+        </tr>
+    <% end %>
+</table>
+
+<p>НОД = <%= @nod %></p>
+<p>НОК = <%= @nok %></p>
